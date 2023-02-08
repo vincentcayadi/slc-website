@@ -10,17 +10,17 @@ const Home = () => {
         <div className="grid h-screen place-items-center">
           <h1 className="text-5xl font-bold">28th SLC</h1>
         </div>
-        <div className="grid h-screen mt-4 place-items-center">
+        <div className="grid h-screen place-items-center">
           <div>
             <h1 className="mb-12 text-4xl font-bold text-center underline">
               About Us
             </h1>
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 mb-12">
               <Profile className="mx-auto" />
               <Profile className="mx-auto" />
               <Profile className="mx-auto" />
             </div>
-            <p className="mt-2">
+            <p>
               The Student Leaders Convention (SLC) is an annual event organised
               by Hwa Chong Institution, and co-facilitated by Nanyang Girls'
               High School. The convention serves as an avenue for Delegates
@@ -30,7 +30,7 @@ const Home = () => {
               insight into societal issues, empowering them with the confidence
               and strength to spark positive change at home.
             </p>
-            <p className="mt-2">
+            <p className="mt-4">
               The first SLC was held in 1994 and it has evolved from a one-day
               local convention to the three-day international convention it is
               today. The inaugural SLC was initiated by a student leader named
@@ -46,7 +46,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid h-screen mt-4 text-center place-items-center">
+        <div className="grid h-screen text-center place-items-center">
           <div>
             <Logo className="mx-auto" />
             <h2 className="text-2xl font-bold">Theme : Lorem Ipsum</h2>
@@ -83,14 +83,14 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid h-screen mt-4 text-center place-items-center">
+        <div className="grid h-screen text-center place-items-center">
           <div>
-            <h1 className="mb-8 text-4xl font-bold text-center underline">
+            <h1 className="mb-12 text-4xl font-bold text-center underline">
               Guests
             </h1>
             <div className="grid grid-cols-3 grid-rows-2 gap-12">
               <div>
-                <Profile className="mx-auto mb-8" />
+                <Profile className="mx-auto mb-12" />
                 <p>
                   Vivamus fringilla diam id velit sodales, a tincidunt lacus
                   ultricies. Sed tincidunt cursus malesuada. Quisque facilisis
@@ -109,7 +109,7 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <Profile className="mx-auto mb-8" />
+                <Profile className="mx-auto mb-12" />
                 <p>
                   Nunc accumsan nisl eu dictum tincidunt. Lorem ipsum dolor sit
                   amet, consectetur adipiscing elit. Aenean blandit accumsan
@@ -124,7 +124,7 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <Profile className="mx-auto mb-8" />
+                <Profile className="mx-auto mb-12https://slc-website-nine.vercel.app" />
                 <p>
                   Cras dapibus tellus quis neque tincidunt, id auctor justo
                   tristique. Fusce diam lorem, tincidunt id urna a, laoreet
@@ -141,8 +141,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="grid h-screen mt-4 text-center place-items-center">
-          <h1 className="mb-2 text-4xl font-bold text-center underline">
+        <div className="grid h-screen text-center place-items-center">
+          <h1 className="mb-12 text-4xl font-bold text-center underline">
             27th SLC Organising Committe
           </h1>
           <div className="grid grid-cols-3 gap-4">
