@@ -11,11 +11,8 @@ const Home = () => {
           <h1 className="text-5xl font-bold">28th SLC</h1>
         </div>
         <div className="grid h-screen mt-4 place-items-center">
-          <p>Insert Video Here</p>
-        </div>
-        <div className="grid h-screen mt-4 place-items-center">
           <div>
-            <h1 className="mb-4 text-4xl font-bold text-center underline">
+            <h1 className="mb-12 text-4xl font-bold text-center underline">
               About Us
             </h1>
             <div className="grid grid-cols-3">
@@ -86,29 +83,6 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid h-screen mt-4 place-items-center">
-          <h1 className="mb-2 text-4xl font-bold text-center underline">
-            27th SLC Organising Committe
-          </h1>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="col-span-2">
-              <OneTeam />
-            </div>
-            <p className="">From left to right</p>
-            <div className="">
-              <TwoTeam />
-            </div>
-            <div className="col-span-2">From Right to Left</div>
-            <div className="col-span-2">
-              <OneTeam />
-            </div>
-            <div className="">From left to right</div>
-            <div className="">From Right to Left</div>
-            <div className="col-span-2">
-              <TwoTeam />
-            </div>
-          </div>
-        </div>
         <div className="grid h-screen mt-4 text-center place-items-center">
           <div>
             <h1 className="mb-8 text-4xl font-bold text-center underline">
@@ -164,6 +138,29 @@ const Home = () => {
                   adipiscing elit.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid h-screen mt-4 text-center place-items-center">
+          <h1 className="mb-2 text-4xl font-bold text-center underline">
+            27th SLC Organising Committe
+          </h1>
+          <div className="grid grid-cols-3 gap-4">
+            <div className="col-span-2">
+              <OneTeam />
+            </div>
+            <p className="">From left to right</p>
+            <div className="">
+              <TwoTeam />
+            </div>
+            <div className="col-span-2">From Right to Left</div>
+            <div className="col-span-2">
+              <OneTeam />
+            </div>
+            <div className="">From left to right</div>
+            <div className="">From Right to Left</div>
+            <div className="col-span-2">
+              <TwoTeam />
             </div>
           </div>
         </div>
