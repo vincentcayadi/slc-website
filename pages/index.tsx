@@ -6,19 +6,19 @@ import Logo from "../public/logo.svg";
 const Home = () => {
   return (
     <>
-      <div className="grid w-3/4 h-full mx-auto place-items-center">
+      <div className="w-3/4 m-auto">
         <div className="grid h-screen place-items-center">
           <h1 className="text-5xl font-bold">28th SLC</h1>
         </div>
-        <div className="grid h-screen place-items-center">
+        <div className="grid md:h-screen place-items-center">
           <div>
             <h1 className="mb-12 text-4xl font-bold text-center underline">
               About Us
             </h1>
-            <div className="grid grid-cols-3 mb-12">
-              <Profile className="mx-auto" />
-              <Profile className="mx-auto" />
-              <Profile className="mx-auto" />
+            <div className="grid grid-cols-1 mb-8 md:grid-cols-3">
+              <Profile className="mx-auto mb-8 md:mb-0" />
+              <Profile className="mx-auto mb-8 md:mb-0" />
+              <Profile className="mx-auto mb-8 md:mb-0" />
             </div>
             <p>
               The Student Leaders Convention (SLC) is an annual event organised
@@ -46,30 +46,12 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid h-screen text-center place-items-center">
+        <div className="grid text-center md:h-screen place-items-center">
           <div>
-            <Logo className="mx-auto" />
-            <h2 className="text-2xl font-bold">Theme : Lorem Ipsum</h2>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
-            </p>
-          </div>
-        </div>
-        <div className="grid h-screen text-center place-items-center">
-          <div>
-            <h1 className="mb-12 text-4xl font-bold text-center underline">
+            <h1 className="mt-4 mb-12 text-4xl font-bold text-center underline">
               Guests
             </h1>
-            <div className="grid grid-cols-3 grid-rows-2 gap-12">
+            <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
               <div>
                 <Profile className="mx-auto mb-12" />
                 <p>
@@ -119,24 +101,24 @@ const Home = () => {
           </div>
         </div>
         <div className="grid h-screen text-center place-items-center">
-          <h1 className="mb-12 text-4xl font-bold text-center underline">
+          <h1 className="text-2xl font-bold text-center underline md:mb-12 md:text-4xl">
             27th SLC Organising Committe
           </h1>
-          <div className="grid grid-cols-3 gap-4">
-            <div className="col-span-2">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
+            <div className="md:ol-span-2">
               <OneTeam />
             </div>
             <p className="">From left to right</p>
             <div className="">
               <TwoTeam />
             </div>
-            <div className="col-span-2">From Right to Left</div>
-            <div className="col-span-2">
+            <div className="md:col-span-2">From Right to Left</div>
+            <div className="md:col-span-2">
               <OneTeam />
             </div>
             <div className="">From left to right</div>
             <div className="">From Right to Left</div>
-            <div className="col-span-2">
+            <div className="md:col-span-2">
               <TwoTeam />
             </div>
           </div>
