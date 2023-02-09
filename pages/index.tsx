@@ -3,6 +3,7 @@ import OneTeam from "../public/one.svg";
 import TwoTeam from "../public/two.svg";
 import Profile from "../public/profile.svg";
 import Logo from "../public/logo.svg";
+import Footer from "../components/footer";
 const Home = () => {
   return (
     <>
@@ -109,12 +110,12 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="hidden md:block">
           <div className="grid h-screen text-center place-items-center">
-            <h1 className="text-2xl font-bold text-center underline md:mb-12 md:text-4xl">
+            <h1 className="text-4xl font-bold text-center underline ">
               27th SLC Organising Committe
             </h1>
-            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            <div className="grid grid-cols-3 gap-8">
               <div className="md:col-span-2">
                 <OneTeam />
               </div>
@@ -134,7 +135,37 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="block md:hidden">
+          <div className="grid text-center place-items-center">
+            <div>
+              <h1 className="mb-8 text-xl font-bold text-center underline">
+                27th SLC Organising Committe
+              </h1>
+              <div className="grid gap-8">
+                <div>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                </div>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <Footer />
     </>
   );
 };
