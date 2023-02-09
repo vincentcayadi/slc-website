@@ -51,9 +51,12 @@ const Home = () => {
             <h1 className="mt-4 mb-12 text-4xl font-bold text-center underline">
               Guests
             </h1>
-            <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
-              <div>
+            <div className="md:grid md:gap-12 md:grid-cols-3">
+              <div className="h-screen md:h-full">
                 <Profile className="mx-auto mb-12" />
+                <h1 className="mb-4 text-2xl font-bold underline">
+                  Name of person
+                </h1>
                 <p>
                   Vivamus fringilla diam id velit sodales, a tincidunt lacus
                   ultricies. Sed tincidunt cursus malesuada. Quisque facilisis
@@ -67,8 +70,11 @@ const Home = () => {
                   tellus mattis semper sed et ante. In non elit sit amet
                 </p>
               </div>
-              <div>
+              <div className="h-screen md:h-full">
                 <Profile className="mx-auto mb-12" />
+                <h1 className="mb-4 text-2xl font-bold underline">
+                  Name of person
+                </h1>
                 <p>
                   Nunc accumsan nisl eu dictum tincidunt. Lorem ipsum dolor sit
                   amet, consectetur adipiscing elit. Aenean blandit accumsan
@@ -82,8 +88,11 @@ const Home = () => {
                   quis congue quam luctus.
                 </p>
               </div>
-              <div>
+              <div className="h-screen md:h-full">
                 <Profile className="mx-auto mb-12 " />
+                <h1 className="mb-4 text-2xl font-bold underline">
+                  Name of person
+                </h1>
                 <p>
                   Cras dapibus tellus quis neque tincidunt, id auctor justo
                   tristique. Fusce diam lorem, tincidunt id urna a, laoreet
@@ -100,26 +109,28 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="grid h-screen text-center place-items-center">
-          <h1 className="text-2xl font-bold text-center underline md:mb-12 md:text-4xl">
-            27th SLC Organising Committe
-          </h1>
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-            <div className="md:ol-span-2">
-              <OneTeam />
-            </div>
-            <p className="">From left to right</p>
-            <div className="">
-              <TwoTeam />
-            </div>
-            <div className="md:col-span-2">From Right to Left</div>
-            <div className="md:col-span-2">
-              <OneTeam />
-            </div>
-            <div className="">From left to right</div>
-            <div className="">From Right to Left</div>
-            <div className="md:col-span-2">
-              <TwoTeam />
+        <div>
+          <div className="grid h-screen text-center place-items-center">
+            <h1 className="text-2xl font-bold text-center underline md:mb-12 md:text-4xl">
+              27th SLC Organising Committe
+            </h1>
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+              <div className="md:col-span-2">
+                <OneTeam />
+              </div>
+              <p className="">From left to right</p>
+              <div className="">From Right to Left</div>
+              <div className="md:col-span-2">
+                <OneTeam />
+              </div>
+              <div className="md:col-span-2">
+                <OneTeam />
+              </div>
+              <div className="">From left to right</div>
+              <div className="">From Right to Left</div>
+              <div className="md:col-span-2">
+                <OneTeam />
+              </div>
             </div>
           </div>
         </div>
