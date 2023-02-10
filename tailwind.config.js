@@ -6,7 +6,9 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: { textColor: { skin: { base: "var(--color-text-base)" } } },
+    extend: {
+      textColor: { skin: { base: "var(--color-text-base)" } },
+    },
   },
   plugins: [],
 };

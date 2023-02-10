@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 const Home = () => {
   return (
     <>
-      <div className="w-3/4 m-auto font-sans text-center">
+      <div className="w-3/4 m-auto text-center">
         <div className="grid h-screen place-items-center">
           <div>
             <h1 className="mb-8 font-bold text-8xl ">28th SLC</h1>
