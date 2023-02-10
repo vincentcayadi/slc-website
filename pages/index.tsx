@@ -1,5 +1,7 @@
 import Profile from "../public/profile.svg";
 import Footer from "../components/footer";
+import Guest from "../public/aaron-beng.jpg";
+import Image from "next/image";
 const Home = () => {
   return (
     <>
@@ -34,10 +36,13 @@ const Home = () => {
           </h1>
         </div>
         <div className="mb-12">
-          <h1 className="mt-4 mb-12 text-4xl font-bold underline">Guests</h1>
-
+          <h1 className="mt-4 mb-4 text-4xl font-bold underline">Guests</h1>
           <div className="h-screen md:h-full">
-            <Profile className="mx-auto mb-12" />
+            <Image
+              src={Guest}
+              className="mx-auto mb-2 rounded-lg"
+              alt="aaron-beng"
+            />
             <h1 className="mb-4 text-3xl font-bold underline">Aaron Beng</h1>
             <p className="w-5/6 mx-auto">
               The first SLC was held in 1994 and it has evolved from a one-day
