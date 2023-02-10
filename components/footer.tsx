@@ -1,6 +1,7 @@
 import Link from "next/link";
 import About from "../pages/about";
 import Logo from "../public/logo.png";
+import Booklet from "../public/booklet.png";
 import Image from "next/image";
 export default function Footer() {
   return (
