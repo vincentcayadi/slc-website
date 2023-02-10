@@ -14,8 +14,14 @@ const Home = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>28th SLC</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <div className="w-3/4 m-auto text-center">
+      <div className="w-3/4 m-auto text-center font-helvetica">
         <div className="grid h-screen place-items-center">
           <div>
             <h1 className="mb-8 text-6xl font-bold md:text-8xl ">28th SLC</h1>
