@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       textColor: { skin: { base: "var(--color-text-base)" } },
     },
-    fontFamily: { sans: ["Inter", "sans-serif"] },
+    fontFamily: { sans: ["Helvetica", "sans-serif"] },
   },
   plugins: [],
 };

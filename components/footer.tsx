@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a href="#" className="flex items-center mb-4 sm:mb-0">
+            <a href="#" className="mr-4 hover:underline md:mr-6">
               E-Booklet
             </a>
           </li>
