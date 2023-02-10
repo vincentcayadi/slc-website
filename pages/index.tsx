@@ -108,9 +108,18 @@ const Home = () => {
           </h2>
           <hr></hr>
           <p className="my-2 text-lg">Timings are in GMT+0800</p>
-          <h3 className="my-2 text-xl font-semibold">Day 1 | 29th May</h3>
-          <h3 className="my-2 text-xl font-semibold">Day 2 | 30th May</h3>
-          <h3 className="my-2 text-xl font-semibold">Day 3 | 31st May</h3>
+          <details className="my-2 text-xl font-semibold">
+            <summary>Day 1 | 28th May</summary>
+            bleh bleh
+          </details>
+          <details className="my-2 text-xl font-semibold">
+            <summary>Day 2 | 29th May</summary>
+            bleh bleh
+          </details>
+          <details className="my-2 text-xl font-semibold">
+            <summary>Day 3 | 30th May</summary>
+            bleh bleh
+          </details>
         </div>
       </div>
       <Footer />
