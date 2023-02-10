@@ -2,6 +2,9 @@ import Profile from "../public/profile.svg";
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.jpg";
 import Image from "next/image";
+import HwaChong from "../public/hci-logo.png";
+import Nanyang from "../public/nygh-logo.png";
+import Slc from "../public/slc-logo.png";
 const Home = () => {
   return (
     <>
@@ -18,7 +21,17 @@ const Home = () => {
           <h1 className="mb-12 text-4xl font-bold text-center underline">
             About Us
           </h1>
-          <div className="grid grid-cols-1 mb-8 md:grid-cols-3"></div>
+          <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-3">
+            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+              <Image src={HwaChong} alt="hwachong" fill />
+            </a>
+            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+              <Image src={Slc} alt="slc" fill />
+            </a>
+            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+              <Image src={Nanyang} alt="nygh" fill />
+            </a>
+          </div>
           <p className="w-5/6 mx-auto">
             The Student Leaders Convention (SLC) is an annual event organised by
             Hwa Chong Institution, and co-facilitated by Nanyang Girls' High
@@ -37,7 +50,7 @@ const Home = () => {
         </div>
         <div className="mb-12">
           <h1 className="mt-4 mb-4 text-4xl font-bold underline">Guests</h1>
-          <div className="h-screen md:h-full">
+          <div>
             <Image
               src={Guest}
               className="mx-auto mb-2 rounded-lg"
