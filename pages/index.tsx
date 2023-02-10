@@ -14,7 +14,6 @@ const Home = () => {
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>28th SLC</title>
-        
       </Head>
       <div className="w-3/4 m-auto text-center font-helvetica">
         <div className="grid h-screen place-items-center">
@@ -26,7 +25,7 @@ const Home = () => {
           </div>
         </div>
         <div className="mb-12">
-          <h1 className="mb-12 text-4xl font-bold text-center underline">
+          <h1 className="mb-4 text-4xl font-bold text-center underline">
             About Us
           </h1>
           <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-3">
@@ -59,7 +58,7 @@ const Home = () => {
           </p>
         </div>
         <div className="mb-12">
-          <h1 className="mb-12 text-4xl font-bold text-center underline">
+          <h1 className="mb-4 text-4xl font-bold text-center underline">
             Theme Rationale
           </h1>
 
@@ -99,9 +98,19 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <h1 className="mb-12 text-4xl font-bold text-center underline">
+          <h1 className="mb-4 text-4xl font-bold text-center underline">
             Timeline
           </h1>
+          <hr></hr>
+          <h2 className="my-2 text-2xl font-bold">
+            Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
+            Singapore
+          </h2>
+          <hr></hr>
+          <p className="my-2 text-lg">Timings are in GMT+0800</p>
+          <h3 className="my-2 text-xl font-semibold">Day 1 | 29th May</h3>
+          <h3 className="my-2 text-xl font-semibold">Day 2 | 30th May</h3>
+          <h3 className="my-2 text-xl font-semibold">Day 3 | 31st May</h3>
         </div>
       </div>
       <Footer />
