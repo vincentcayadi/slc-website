@@ -21,11 +21,6 @@ export default function Footer() {
         </a>
         <ul className="flex flex-wrap items-center mb-4 text-base text-gray-300 sm:mb-0">
           <li>
-            <Link href="about" className="mr-4 hover:underline md:mr-6 ">
-              About
-            </Link>
-          </li>
-          <li>
             <a href="#" className="mr-4 hover:underline md:mr-6">
               Instagram
             </a>
