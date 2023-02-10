@@ -20,7 +20,7 @@ const Home = () => {
           <div>
             <h1 className="mb-8 text-6xl font-bold md:text-8xl ">28th SLC</h1>
             <p className="text-xl md:text-3xl">
-              Change or continuity, a false dichotomy
+              Change Or Continuity, A False Dichotomy
             </p>
           </div>
         </div>
