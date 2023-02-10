@@ -29,13 +29,13 @@ const Home = () => {
             About Us
           </h1>
           <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-3">
-            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+            <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
               <Image src={HwaChong} alt="hwachong" fill />
             </a>
-            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+            <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
               <Image src={Slc} alt="slc" fill />
             </a>
-            <a className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+            <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
               <Image src={Nanyang} alt="nygh" fill />
             </a>
           </div>
