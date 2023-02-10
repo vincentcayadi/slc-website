@@ -6,9 +6,15 @@ import Nanyang from "../public/nygh-logo.png";
 import Slc from "../public/slc-logo.png";
 import Link from "next/link";
 import Homer from "../public/homer.png";
+import Head from "next/head";
 const Home = () => {
   return (
     <>
+      <Head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>28th SLC</title>
+      </Head>
       <div className="w-3/4 m-auto text-center">
         <div className="grid h-screen place-items-center">
           <div>
