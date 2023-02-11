@@ -39,7 +39,7 @@ const Home = () => {
               <Image src={Nanyang} alt="nygh" fill />
             </a>
           </div>
-          <hr className="my-2 border-2"></hr>
+          <hr className="my-2"></hr>
           <p className="w-5/6 mx-auto">
             The Student Leaders Convention (SLC) is an annual event organised by{" "}
             <Link href={"https://www.hci.edu.sg/"} className="underline ">
@@ -61,7 +61,6 @@ const Home = () => {
           <h1 className="mb-4 text-4xl font-bold text-center underline">
             Theme Rationale
           </h1>
-
           <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
             <Image src={Homer} alt="logo" fill />
           </div>
@@ -101,13 +100,14 @@ const Home = () => {
           <h1 className="mb-4 text-4xl font-bold text-center underline">
             Timeline
           </h1>
-          <hr></hr>
-          <h2 className="my-2 text-2xl font-bold">
+          <hr className="my-2"></hr>
+          <h2 className="text-lg md:text-2xl font-bold">
             Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
             Singapore
           </h2>
+          <hr className="my-2"></hr>
+          <p className="my-2 text-base md:text-lg">Timings are in GMT+0800</p>
           <hr></hr>
-          <p className="my-2 text-lg">Timings are in GMT+0800</p>
           <details className="my-2 text-xl font-semibold">
             <summary>Day 1 | 28th May</summary>
             bleh bleh
