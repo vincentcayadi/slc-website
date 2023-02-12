@@ -10,6 +10,9 @@ module.exports = {
       textColor: { skin: { base: "var(--color-text-base)" } },
     },
     fontFamily: { sans: ["Helvetica", "sans-serif"] },
+    screens: {
+      md: "1024px",
+    },
   },
   plugins: [],
 };
