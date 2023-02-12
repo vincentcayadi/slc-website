@@ -7,10 +7,9 @@
     --color-text-base: #000000;
     scroll-behavior: smooth;
   }
-}
-
-@font-face {
-  font-family: Helvetica;
-  src: url("../public/helvetica/Helvetica.ttf");
-  font-display: swap;
+  @font-face {
+    font-family: Helvetica;
+    src: url("../public/helvetica/Helvetica.ttf");
+    font-display: swap;
+  }
 }
