@@ -81,7 +81,7 @@ const Home = () => {
             <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
               <Image src={Homer} alt="logo" fill />
             </div>
-            <h2 className="text-xl font-bold underline md:text-4xl">
+            <h2 className="my-2 text-xl font-bold md:text-4xl">
               Change Or Continuity, A False Dichotomy
             </h2>
             <p className="w-5/6 mx-auto">
@@ -125,8 +125,9 @@ const Home = () => {
               Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
               Singapore
             </h2>
-            <hr className="my-2"></hr>
-            <p className="my-2 text-base md:text-lg">Timings are in GMT+0800</p>
+            <p className="my-2 text-base text-gray-400">
+              Timings are in GMT+0800
+            </p>
             <hr></hr>
             <details className="my-2 text-xl font-semibold">
               <summary>Day 1 | 28th May</summary>
@@ -146,7 +147,7 @@ const Home = () => {
           <div className="hidden md:block">
             <div className="grid h-screen text-center place-items-center">
               <h1 className="text-4xl font-bold text-center underline ">
-                27th SLC Organising Committe
+                Organising Committe
               </h1>
               <div className="grid grid-cols-3 gap-8">
                 <div className="md:col-span-2">
@@ -171,8 +172,8 @@ const Home = () => {
           <div className="block md:hidden">
             <div className="grid text-center place-items-center">
               <div>
-                <h1 className="mb-8 text-xl font-bold text-center underline">
-                  27th SLC Organising Committe
+                <h1 className="mb-8 text-3xl font-bold text-center underline">
+                  Organising Committe
                 </h1>
                 <div className="grid gap-8">
                   <div>
