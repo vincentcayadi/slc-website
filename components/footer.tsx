@@ -45,17 +45,6 @@ export default function Footer() {
               href="#"
               className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
             >
-              TikTok
-            </a>
-          </li>
-          <li>
-            <a className="mr-2 md:mr-4">|</a>
-          </li>
-          <li>
-            <a
-              href="#"
-              className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
-            >
               Instagram
             </a>
           </li>
