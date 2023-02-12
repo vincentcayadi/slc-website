@@ -7,6 +7,7 @@ import Slc from "../public/slc-logo.png";
 import Link from "next/link";
 import Homer from "../public/homer.png";
 import Head from "next/head";
+import OneTeam from "../public/one.svg";
 const Home = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const Home = () => {
         <meta name="description" content="Home | 28th SLC" />
         <title>28th SLC</title>
       </Head>
-      <div className="w-3/4 m-auto text-center font-helvetica ">
+      <div className="w-3/4 m-auto text-center">
         <div className="relative grid h-screen place-items-center">
           <div>
             <h1 className="mb-8 text-6xl font-bold md:text-8xl ">28th SLC</h1>
@@ -34,7 +35,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          className="grid mb-12 text-left md:mb-0 place-items-center md:h-screen"
+          className="grid mb-12 text-left md:mb-0 place-items-center md:h-screen "
           id="about"
         >
           <div>
@@ -92,18 +93,18 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="grid h-screen mb-12 place-items-center ">
-          <div className="grid gird-cols-1 md:grid-cols-2 ">
+        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+          <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
-              className="w-64 mx-auto mb-2 rounded-full md:mb-0 md:order-last "
+              className="w-64 mx-auto mb-2 rounded-full md:mr-0 md:mb-0 md:order-last"
               alt="aaron-beng"
             />
-            <div>
-              <h1 className="mb-4 text-3xl font-bold underline">
+            <div className="m-auto">
+              <h1 className="mb-4 text-3xl font-bold text-center md:text-left">
                 Our Guest Of Honor
               </h1>
-              <p className="text-base text-left md:text-xl">
+              <p className="text-base text-center md:text-left md:text-xl">
                 The inaugural SLC was initiated by a student leader named Aaron
                 Beng, who was awarded the President’s Scholarship and Singapore
                 Armed Forces Scholarship after he completed his A-levels, and
@@ -114,30 +115,88 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
-          <h1 className="mb-4 text-4xl font-bold text-center underline">
-            Timeline
-          </h1>
-          <hr className="my-2"></hr>
-          <h2 className="text-lg font-bold md:text-2xl">
-            Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
-            Singapore
-          </h2>
-          <hr className="my-2"></hr>
-          <p className="my-2 text-base md:text-lg">Timings are in GMT+0800</p>
-          <hr></hr>
-          <details className="my-2 text-xl font-semibold">
-            <summary>Day 1 | 28th May</summary>
-            bleh bleh
-          </details>
-          <details className="my-2 text-xl font-semibold">
-            <summary>Day 2 | 29th May</summary>
-            bleh bleh
-          </details>
-          <details className="my-2 text-xl font-semibold">
-            <summary>Day 3 | 30th May</summary>
-            bleh bleh
-          </details>
+        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+          <div>
+            <h1 className="mb-4 text-4xl font-bold text-center underline">
+              Timeline
+            </h1>
+            <hr className="my-2"></hr>
+            <h2 className="text-lg font-bold md:text-2xl">
+              Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
+              Singapore
+            </h2>
+            <hr className="my-2"></hr>
+            <p className="my-2 text-base md:text-lg">Timings are in GMT+0800</p>
+            <hr></hr>
+            <details className="my-2 text-xl font-semibold">
+              <summary>Day 1 | 28th May</summary>
+              bleh bleh
+            </details>
+            <details className="my-2 text-xl font-semibold">
+              <summary>Day 2 | 29th May</summary>
+              bleh bleh
+            </details>
+            <details className="my-2 text-xl font-semibold">
+              <summary>Day 3 | 30th May</summary>
+              bleh bleh
+            </details>
+          </div>
+        </div>
+        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+          <div className="hidden md:block">
+            <div className="grid h-screen text-center place-items-center">
+              <h1 className="text-4xl font-bold text-center underline ">
+                27th SLC Organising Committe
+              </h1>
+              <div className="grid grid-cols-3 gap-8">
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <p className="">From left to right</p>
+                <div className="">From Right to Left</div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <div className="">From left to right</div>
+                <div className="">From Right to Left</div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="block md:hidden">
+            <div className="grid text-center place-items-center">
+              <div>
+                <h1 className="mb-8 text-xl font-bold text-center underline">
+                  27th SLC Organising Committe
+                </h1>
+                <div className="grid gap-8">
+                  <div>
+                    <div>
+                      <OneTeam />
+                    </div>
+                    <p>From left to right</p>
+                  </div>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
