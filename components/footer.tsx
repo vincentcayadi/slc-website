@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Logo from "../public/logo.png";
-import Booklet from "../public/booklet.png";
 import Image from "next/image";
 export default function Footer() {
   return (
@@ -22,18 +21,40 @@ export default function Footer() {
           <li>
             <a
               href="#"
-              className="mr-4 duration-300 border-b-2 border-transparent hover:border-white md:mr-6"
+              className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
+            >
+              Contact Us
+            </a>
+          </li>
+          <li>
+            <a className="mr-2 md:mr-4">|</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
+            >
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a className="mr-2 md:mr-4">|</a>
+          </li>
+          <li>
+            <a
+              href="#"
+              className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
             >
               Instagram
             </a>
           </li>
           <li>
-            <a className="mr-4 md:mr-6">|</a>
+            <a className="mr-2 md:mr-4">|</a>
           </li>
           <li>
             <a
               href="#"
-              className="mr-4 duration-300 border-b-2 border-transparent hover:border-white md:mr-6"
+              className="mr-2 duration-300 border-b-2 border-transparent hover:border-white md:mr-4"
             >
               E-Booklet
             </a>
