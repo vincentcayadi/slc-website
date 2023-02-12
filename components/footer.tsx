@@ -29,7 +29,7 @@ export default function Footer() {
             </a>
           </li>
           <li>
-            <a className="mr-2 md:mr-6">|</a>
+            <a className="mr-4 md:mr-6">|</a>
           </li>
           <li>
             <a
