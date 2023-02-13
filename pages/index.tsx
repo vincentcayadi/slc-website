@@ -18,7 +18,7 @@ const Home = () => {
         <title>28th SLC</title>
       </Head>
       <div className="w-3/4 m-auto text-center">
-        <div className="relative grid h-screen place-items-center">
+        <section className="relative grid h-screen place-items-center">
           <div>
             <h1 className="mb-8 text-6xl font-bold md:text-8xl ">28th SLC</h1>
             <p className="text-xl md:text-3xl">
@@ -26,15 +26,15 @@ const Home = () => {
             </p>
           </div>
           <div className="absolute grid w-full bottom-4 place-items-center">
-            <a
+            <Link
               href="#about"
               className="mx-auto text-sm text-center duration-200 animate-bounce sm:text-lg"
             >
               Scroll down
-            </a>
+            </Link>
           </div>
-        </div>
-        <div
+        </section>
+        <section
           className="grid mb-12 text-left md:mb-0 place-items-center md:h-screen "
           id="about"
         >
@@ -72,11 +72,16 @@ const Home = () => {
             </p>
             <p className="text-base md:text-xl">
               The theme for the 28th SLC is{" "}
-              <b>"Change Or Continuity, A False Dichotomy"</b>
+              <Link href="#theme">
+                <b>"Change Or Continuity, A False Dichotomy"</b>
+              </Link>
             </p>
           </div>
-        </div>
-        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        </section>
+        <section
+          className="grid mb-12 md:mb-0 place-items-center md:h-screen"
+          id="theme"
+        >
           <div>
             <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
               <Image src={Homer} alt="logo" fill />
@@ -92,8 +97,8 @@ const Home = () => {
               greatest comedic animated characters of modern times.
             </p>
           </div>
-        </div>
-        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        </section>
+        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
@@ -114,8 +119,8 @@ const Home = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        </section>
+        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
           <div>
             <h1 className="mb-4 text-4xl font-bold text-center underline">
               Timeline
@@ -142,8 +147,8 @@ const Home = () => {
               bleh bleh
             </details>
           </div>
-        </div>
-        <div className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        </section>
+        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
           <div className="hidden md:block">
             <div className="grid h-screen text-center place-items-center">
               <h1 className="text-4xl font-bold text-center underline ">
@@ -169,7 +174,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="block md:hidden">
+          <section className="block md:hidden">
             <div className="grid text-center place-items-center">
               <div>
                 <h1 className="mb-8 text-3xl font-bold text-center underline">
@@ -197,8 +202,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </section>
+        </section>
       </div>
       <Footer />
     </>
