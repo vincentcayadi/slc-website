@@ -20,7 +20,7 @@ const Home = () => {
       <div className="w-3/4 m-auto text-center">
         <section className="relative grid h-screen place-items-center">
           <div>
-            <h1 className="mb-4 text-6xl font-bold md:text-8xl ">28th SLC</h1>
+            <h1 className="mb-8 text-6xl font-bold md:text-8xl">28th SLC</h1>
             <p className="text-xl italic md:text-3xl">
               Change Or Continuity, A False Dichotomy
             </p>
@@ -39,7 +39,7 @@ const Home = () => {
           id="about"
         >
           <div>
-            <h1 className="mt-12 mb-4 text-4xl font-bold text-center underline md:mt-0">
+            <h1 className="mt-12 mb-8 text-4xl font-bold text-center underline md:mt-0">
               About Us
             </h1>
             <div className="grid grid-cols-1 gap-8 mb-8 md:gap-4 md:grid-cols-3">
@@ -102,11 +102,11 @@ const Home = () => {
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
-              className="w-64 mx-auto mb-2 rounded-full md:mr-0 md:mb-0 md:order-last"
+              className="w-64 mx-auto mb-8 rounded-full md:mr-0 md:mb-0 md:order-last"
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="mb-4 text-3xl font-bold text-center md:text-left">
+              <h1 className="mb-8 text-3xl font-bold text-center md:text-left">
                 Our Guest Of Honor
               </h1>
               <p className="text-base text-center md:text-left md:text-xl">
@@ -122,7 +122,7 @@ const Home = () => {
         </section>
         <section className="grid h-screen mb-12 md:mb-0 place-items-center">
           <div>
-            <h1 className="mb-4 text-4xl font-bold text-center underline">
+            <h1 className="mb-8 text-4xl font-bold text-center underline">
               Timeline
             </h1>
             <hr className="my-2"></hr>
@@ -148,10 +148,10 @@ const Home = () => {
             </details>
           </div>
         </section>
-        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        <section className="grid mb-12 md:mb-0 place-items-center">
           <div className="hidden md:block">
-            <div className="grid h-screen text-center place-items-center">
-              <h1 className="text-4xl font-bold text-center underline ">
+            <div className="grid text-center place-items-center">
+              <h1 className="mb-8 text-4xl font-bold text-center underline ">
                 Organising Committe
               </h1>
               <div className="grid grid-cols-3 gap-8">
