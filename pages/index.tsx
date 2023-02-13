@@ -20,8 +20,8 @@ const Home = () => {
       <div className="w-3/4 m-auto text-center">
         <section className="relative grid h-screen place-items-center">
           <div>
-            <h1 className="mb-8 text-6xl font-bold md:text-8xl ">28th SLC</h1>
-            <p className="text-xl md:text-3xl">
+            <h1 className="mb-4 text-6xl font-bold md:text-8xl ">28th SLC</h1>
+            <p className="text-xl italic md:text-3xl">
               Change Or Continuity, A False Dichotomy
             </p>
           </div>
@@ -35,14 +35,14 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="grid mb-12 text-left md:mb-0 place-items-center md:h-screen "
+          className="grid mb-12 md:mb-0 place-items-center md:h-screen "
           id="about"
         >
           <div>
             <h1 className="mt-12 mb-4 text-4xl font-bold text-center underline md:mt-0">
               About Us
             </h1>
-            <div className="grid grid-cols-1 gap-4 mb-8 md:grid-cols-3">
+            <div className="grid grid-cols-1 gap-8 mb-8 md:gap-4 md:grid-cols-3">
               <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
                 <Image src={HwaChong} alt="hwachong" fill />
               </a>
