@@ -26,12 +26,12 @@ const Home = () => {
             </p>
           </div>
           <div className="absolute grid w-full bottom-4 place-items-center">
-            <Link
+            <a
               href="#about"
               className="mx-auto text-sm text-center duration-200 animate-bounce sm:text-lg"
             >
               Scroll down
-            </Link>
+            </a>
           </div>
         </section>
         <section
@@ -72,9 +72,9 @@ const Home = () => {
             </p>
             <p className="text-base md:text-xl">
               The theme for the 28th SLC is{" "}
-              <Link href="#theme">
+              <a href="#theme">
                 <b>"Change Or Continuity, A False Dichotomy"</b>
-              </Link>
+              </a>
             </p>
           </div>
         </section>
