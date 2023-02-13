@@ -79,7 +79,7 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="grid mb-12 md:mb-0 place-items-center md:h-screen"
+          className="grid h-screen mb-12 md:mb-0 place-items-center"
           id="theme"
         >
           <div>
@@ -98,7 +98,7 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        <section className="grid h-screen mb-12 md:mb-0 place-items-center">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
@@ -120,7 +120,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid mb-12 md:mb-0 place-items-center md:h-screen">
+        <section className="grid h-screen mb-12 md:mb-0 place-items-center">
           <div>
             <h1 className="mb-4 text-4xl font-bold text-center underline">
               Timeline
