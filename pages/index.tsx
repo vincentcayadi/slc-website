@@ -204,10 +204,6 @@ const Home = () => {
             </div>
           </section>
         </section>
-        {/* 
-        <button className="fixed flex items-center justify-center w-20 h-20 text-4xl text-white duration-300 bg-blue-600 rounded-full z-90 bottom-10 right-8 drop-shadow-lg hover:bg-blue-700 hover:drop-shadow-2xl hover:scale-125">
-          &#9993;
-        </button> */}
       </div>
       <Footer />
     </>
