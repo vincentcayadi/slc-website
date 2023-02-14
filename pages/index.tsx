@@ -148,6 +148,62 @@ const Home = () => {
             </details>
           </div>
         </section>
+        <section className="grid mb-12 md:mb-0 place-items-center">
+          <div className="hidden md:block">
+            <div className="grid text-center place-items-center">
+              <h1 className="mb-8 text-4xl font-bold text-center underline ">
+                Organising Committe
+              </h1>
+              <div className="grid grid-cols-3 gap-8">
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <p className="">From left to right</p>
+                <div className="">From Right to Left</div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+                <div className="">From left to right</div>
+                <div className="">From Right to Left</div>
+                <div className="md:col-span-2">
+                  <OneTeam />
+                </div>
+              </div>
+            </div>
+          </div>
+          <section className="block md:hidden">
+            <div className="grid text-center place-items-center">
+              <div>
+                <h1 className="mb-8 text-3xl font-bold text-center underline">
+                  Organising Committe
+                </h1>
+                <div className="grid gap-8">
+                  <div>
+                    <div>
+                      <OneTeam />
+                    </div>
+                    <p>From left to right</p>
+                  </div>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                  <div>
+                    <OneTeam />
+                  </div>
+                  <p>From left to right</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
       </div>
       <Footer />
     </>
