@@ -12,10 +12,12 @@ const Home = () => {
   return (
     <>
       <Head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Home | 28th SLC" />
         <title>28th SLC</title>
+        <meta name="description" content="Home | 28th SLC" />
+        <meta property="og:title" content="Home Page of the 28th SLC" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:description" content="Home Page of the 28th SLC" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="w-3/4 m-auto text-center">
         <section className="relative grid h-screen place-items-center">
