@@ -108,7 +108,7 @@ const Home = () => {
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="mb-8 text-3xl font-bold text-center md:text-left">
+              <h1 className="mb-6 text-3xl font-bold text-center md:text-left">
                 Our Guest Of Honor
               </h1>
               <p className="text-base text-center md:text-left md:text-xl">
@@ -124,13 +124,12 @@ const Home = () => {
         </section>
         <section className="grid h-screen mb-12 md:mb-0 place-items-center">
           <div>
-            <h1 className="mb-8 text-4xl font-bold text-center underline">
-              Timeline
+            <h1 className="mb-4 text-4xl font-bold text-center">
+              Convention Dates
             </h1>
             <hr className="my-2"></hr>
-            <h2 className="text-lg font-bold md:text-2xl">
-              Convention Dates: 28th May - 31st May @ Hwa Chong Institution,
-              Singapore
+            <h2 className="font-bold md:text-2xl">
+              28th May - 31st May @ Hwa Chong Institution, Singapore
             </h2>
             <p className="my-2 text-base text-gray-400">
               Timings are in GMT+0800
