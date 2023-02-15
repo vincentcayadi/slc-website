@@ -79,7 +79,7 @@ const Home = () => {
         </section>
         <section className="grid h-screen place-items-center" id="theme">
           <div className="grid gird-cols-1 md:grid-cols-2">
-            <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
+            <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64 md:ml-0">
               <Image src={Homer} alt="logo" fill />
             </div>
             <div className="m-auto">
@@ -100,7 +100,7 @@ const Home = () => {
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
-              className="w-64 mx-auto mb-8 rounded-full md:mr-0 md:order-last"
+              className="w-64 m-auto mx-auto align-middle rounded-full md:mr-0 md:order-last"
               alt="aaron-beng"
             />
             <div className="m-auto">
