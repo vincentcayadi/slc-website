@@ -14,9 +14,12 @@ const Home = () => {
       <Head>
         <title>28th SLC</title>
         <meta name="description" content="Home | 28th SLC" />
-        <meta property="og:title" content="28th SLC" />
+        <meta property="og:title" content="28th Student Leader Convention" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta property="og:description" content="28th SLC" />
+        <meta
+          property="og:description"
+          content="28th Student Leader Convention"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <div className="w-3/4 m-auto text-center">
