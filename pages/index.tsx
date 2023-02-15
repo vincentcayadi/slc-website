@@ -36,10 +36,7 @@ const Home = () => {
             </a>
           </div>
         </section>
-        <section
-          className="grid mb-12 md:mb-0 place-items-center md:h-screen "
-          id="about"
-        >
+        <section className="grid place-items-center md:h-screen " id="about">
           <div>
             <h1 className="mt-12 mb-8 text-4xl font-bold text-center underline md:mt-0">
               About Us
@@ -80,31 +77,30 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section
-          className="grid h-screen mb-12 md:mb-0 place-items-center"
-          id="theme"
-        >
-          <div>
+        <section className="grid h-screen place-items-center" id="theme">
+          <div className="grid gird-cols-1 md:grid-cols-2">
             <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64">
               <Image src={Homer} alt="logo" fill />
             </div>
-            <h2 className="my-2 text-xl font-bold md:text-4xl">
-              Change Or Continuity, A False Dichotomy
-            </h2>
-            <p className="w-5/6 mx-auto">
-              Homer is clumsy, fat and very lazy. He is also an alcoholic, and
-              is not very intelligent. He works as a Safety Inspector at the
-              Springfield Nuclear Power Plant. Homer is one of the most popular
-              and famous fictional characters and is thought of as one of the
-              greatest comedic animated characters of modern times.
-            </p>
+            <div className="m-auto">
+              <h1 className="mb-6 text-3xl font-bold text-center md:text-right">
+                Change Or Continuity, A False Dichotomy
+              </h1>
+              <p className="text-base text-center md:text-right md:text-xl">
+                Homer is clumsy, fat and very lazy. He is also an alcoholic, and
+                is not very intelligent. He works as a Safety Inspector at the
+                Springfield Nuclear Power Plant. Homer is one of the most
+                popular and famous fictional characters and is thought of as one
+                of the greatest comedic animated characters of modern times.
+              </p>
+            </div>
           </div>
         </section>
-        <section className="grid h-screen mb-12 md:mb-0 place-items-center">
+        <section className="grid h-screen place-items-center">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
-              className="w-64 mx-auto mb-8 rounded-full md:mr-0 md:mb-0 md:order-last"
+              className="w-64 mx-auto mb-8 rounded-full md:mr-0 md:order-last"
               alt="aaron-beng"
             />
             <div className="m-auto">
@@ -122,9 +118,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid h-screen mb-12 md:mb-0 place-items-center">
+        <section className="grid h-screen place-items-center">
           <div>
-            <h1 className="mb-4 text-4xl font-bold text-center">
+            <h1 className="mb-4 text-3xl font-bold text-center md:text-4xl">
               Convention Dates
             </h1>
             <hr className="my-2"></hr>
@@ -149,7 +145,7 @@ const Home = () => {
             </details>
           </div>
         </section>
-        <section className="grid mb-12 md:mb-0 place-items-center">
+        <section className="grid place-items-center">
           <div className="hidden md:block">
             <div className="grid text-center place-items-center">
               <h1 className="mb-8 text-4xl font-bold text-center underline ">
@@ -160,7 +156,7 @@ const Home = () => {
                   <OneTeam />
                 </div>
                 <p className="">From left to right</p>
-                <div className="">From Right to Left</div>
+                <div className="">From right to Left</div>
                 <div className="md:col-span-2">
                   <OneTeam />
                 </div>
@@ -168,7 +164,7 @@ const Home = () => {
                   <OneTeam />
                 </div>
                 <div className="">From left to right</div>
-                <div className="">From Right to Left</div>
+                <div className="">From light to Left</div>
                 <div className="md:col-span-2">
                   <OneTeam />
                 </div>
