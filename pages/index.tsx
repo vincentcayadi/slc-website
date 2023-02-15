@@ -111,9 +111,7 @@ const Home = () => {
                 The inaugural SLC was initiated by a student leader named Aaron
                 Beng, who was awarded the President’s Scholarship and Singapore
                 Armed Forces Scholarship after he completed his A-levels, and
-                was graced by Minister Lim Hng Kiang. The first SLC was held in
-                1994 and it has evolved from a one-day local convention to the
-                three-day international convention it is today.
+                was graced by Minister Lim Hng Kiang. 
               </p>
             </div>
           </div>
