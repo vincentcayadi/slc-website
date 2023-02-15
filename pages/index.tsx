@@ -83,7 +83,7 @@ const Home = () => {
               <Image src={Homer} alt="logo" fill />
             </div>
             <div className="m-auto">
-              <h1 className="mb-6 text-3xl font-bold text-center md:text-right">
+              <h1 className="mb-2 text-3xl font-bold text-center md:text-right">
                 Change Or Continuity, A False Dichotomy
               </h1>
               <p className="text-base text-center md:text-right md:text-xl">
@@ -104,21 +104,21 @@ const Home = () => {
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="mb-6 text-3xl font-bold text-center md:text-left">
+              <h1 className="mb-2 text-3xl font-bold text-center md:text-left">
                 Our Guest Of Honor
               </h1>
               <p className="text-base text-center md:text-left md:text-xl">
                 The inaugural SLC was initiated by a student leader named Aaron
                 Beng, who was awarded the President’s Scholarship and Singapore
                 Armed Forces Scholarship after he completed his A-levels, and
-                was graced by Minister Lim Hng Kiang. 
+                was graced by Minister Lim Hng Kiang.
               </p>
             </div>
           </div>
         </section>
         <section className="grid h-screen place-items-center">
           <div>
-            <h1 className="mb-4 text-3xl font-bold text-center md:text-4xl">
+            <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
               Convention Dates
             </h1>
             <hr className="my-2"></hr>
