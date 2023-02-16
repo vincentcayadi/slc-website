@@ -86,7 +86,7 @@ const Home = () => {
               <Image src={Homer} alt="logo" fill />
             </div>
             <div className="m-auto">
-              <h1 className="mb-2 text-3xl font-bold text-center md:text-right">
+              <h1 className="my-2 text-3xl font-bold text-center md:text-right">
                 Change Or Continuity, A False Dichotomy
               </h1>
               <p className="text-base text-center md:text-right md:text-xl">
@@ -107,7 +107,7 @@ const Home = () => {
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="mb-2 text-3xl font-bold text-center md:text-left">
+              <h1 className="my-2 text-3xl font-bold text-center md:text-left">
                 Our Guest Of Honor
               </h1>
               <p className="text-base text-center md:text-left md:text-xl">
