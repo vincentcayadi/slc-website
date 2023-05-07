@@ -5,9 +5,7 @@ import Head from "next/head";
 
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
-import HwaChong from "../public/hci-logo.png";
-import Nanyang from "../public/nygh-logo.png";
-import Slc from "../public/slc-logo.png";
+
 import SLC from "../public/slc-small.png";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.png";
@@ -59,15 +57,10 @@ const Home = () => {
           id="about"
         >
           <div>
-            <h1 className="mt-12 mb-8 text-4xl font-bold text-center underline md:mt-0">
+            <h1 className="mt-12 text-4xl font-bold text-center underline md:mt-0">
               About Us
             </h1>
-            <div className="grid grid-cols-1 gap-8 mb-8">
-              <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
-                <Image src={Slc} alt="slc" fill />
-              </a>
-            </div>
-            <hr className="my-2"></hr>
+            <hr className="my-4"></hr>
             <p className="text-base md:text-xl">
               The Student Leaders Convention (SLC) is an annual event organised{" "}
               <Link href={"https://www.hci.edu.sg/"} className="underline ">
