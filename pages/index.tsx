@@ -154,7 +154,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleDateClick("firstDay")}
               >
-                Day 1 | 28th May
+                Day 1
               </button>
               <button
                 className={`text-lg ${
@@ -162,7 +162,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleDateClick("secondDay")}
               >
-                Day 2 | 29th May
+                Day 2
               </button>
               <button
                 className={`text-lg ${
@@ -170,7 +170,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleDateClick("thirdDay")}
               >
-                Day 3 | 30th May
+                Day 3
               </button>
             </div>
             <hr></hr>

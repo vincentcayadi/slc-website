@@ -6,10 +6,7 @@ export default function Footer() {
     <footer className="p-4 mt-4 text-center bg-gray-900 shadow md:px-6 md:py-8">
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="#" className="flex items-center mb-4 sm:mb-0">
-          <div className="relative w-16 h-16 mx-auto mr-2 ml:0">
-            <Image src={Logo} alt="logo" fill />
-          </div>
-          <span className="self-center text-xl font-semibold text-white whitespace-nowrap">
+          <span className="self-center text-lg font-semibold text-left text-white text0 md:text-xl">
             28th Student Leaders Convention
           </span>
         </a>
