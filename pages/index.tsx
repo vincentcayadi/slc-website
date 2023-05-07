@@ -14,9 +14,13 @@ import BigLogo from "../public/biglogo.png";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
-
+  const [selectedTabDates, setSelectedTabDates] = useState("firstDay");
   function handleTabClick(tabName: any) {
     setSelectedTab(tabName);
+  }
+
+  function handleDateClick(tabDate: any) {
+    setSelectedTabDates(tabDate);
   }
 
   return (
@@ -24,11 +28,11 @@ const Home = () => {
       <Head>
         <title>28th SLC</title>
         <meta name="description" content="Home | 28th SLC" />
-        <meta property="og:title" content="28th Student Leader Convention" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta property="og:title" content="28th Student Leaders Convention" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           property="og:description"
-          content="28th Student Leader Convention"
+          content="28th Student Leaders Convention"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
@@ -143,18 +147,53 @@ const Home = () => {
               Timings are in GMT+0800
             </p>
             <hr></hr>
-            <details className="my-2 text-xl font-semibold">
-              <summary>Day 1 | 28th May</summary>
-              bleh bleh
-            </details>
-            <details className="my-2 text-xl font-semibold">
-              <summary>Day 2 | 29th May</summary>
-              bleh bleh
-            </details>
-            <details className="my-2 text-xl font-semibold">
-              <summary>Day 3 | 30th May</summary>
-              bleh bleh
-            </details>
+            <div className="grid grid-cols-3 gap-8 my-2">
+              <button
+                className={`text-lg ${
+                  selectedTabDates === "firstDay" ? "font-bold" : ""
+                }`}
+                onClick={() => handleDateClick("firstDay")}
+              >
+                Day 1 | 28th May
+              </button>
+              <button
+                className={`text-lg ${
+                  selectedTabDates === "secondDay" ? "font-bold" : ""
+                }`}
+                onClick={() => handleDateClick("secondDay")}
+              >
+                Day 2 | 29th May
+              </button>
+              <button
+                className={`text-lg ${
+                  selectedTabDates === "thirdDay" ? "font-bold" : ""
+                }`}
+                onClick={() => handleDateClick("thirdDay")}
+              >
+                Day 3 | 30th May
+              </button>
+            </div>
+            <hr></hr>
+            <div className="mt-4">
+              {selectedTabDates === "firstDay" && (
+                <div>
+                  <h2 className="text-2xl font-bold">First Day</h2>
+                  <p>Content for the First Day tab goes here</p>
+                </div>
+              )}
+              {selectedTabDates === "secondDay" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Second Day</h2>
+                  <p>Content for the Second Day tab goes here</p>
+                </div>
+              )}
+              {selectedTabDates === "thirdDay" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Third Day</h2>
+                  <p>Content for the Third Day tab goes here</p>
+                </div>
+              )}
+            </div>
           </div>
         </section>
         <section className="grid place-items-center">
@@ -168,7 +207,7 @@ const Home = () => {
                   className={`text-lg ${
                     selectedTab === "adminCommittee" ? "font-bold" : ""
                   }`}
-                  onClick={() => handleTabClick("adminCommittee")}
+                  onClick={() => handleDateClick("adminCommittee")}
                 >
                   Admin Committee
                 </button>
