@@ -59,39 +59,28 @@ const Home = () => {
             <h1 className="mt-12 mb-8 text-4xl font-bold text-center underline md:mt-0">
               About Us
             </h1>
-            <div className="grid grid-cols-1 gap-8 mb-8 md:gap-4 md:grid-cols-3">
-              <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
-                <Image src={HwaChong} alt="hwachong" fill />
-              </a>
+            <div className="grid grid-cols-1 gap-8 mb-8">
               <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
                 <Image src={Slc} alt="slc" fill />
-              </a>
-              <a className="relative w-32 h-32 mx-auto md:h-48 md:w-48">
-                <Image src={Nanyang} alt="nygh" fill />
               </a>
             </div>
             <hr className="my-2"></hr>
             <p className="text-base md:text-xl">
-              The Student Leaders Convention (SLC) is an annual event organised
-              by{" "}
+              The Student Leaders Convention (SLC) is an annual event organised{" "}
               <Link href={"https://www.hci.edu.sg/"} className="underline ">
                 Hwa Chong Institution
               </Link>
-              , and co-facilitated by{" "}
-              <Link href={"https://www.nygh.edu.sg/"} className="underline ">
-                Nanyang Girls' High School
-              </Link>
-              . The convention is an open platform for student leaders to put
-              aside their differences, and gain insight to empower themselves
-              with the confidence and strength to make a positive change back
-              home. It has continually evolved since 1999 from a one-day local
-              event to the four-day international convention it is today.
-            </p>
-            <p className="text-base md:text-xl">
-              The theme for the 28th SLC is{" "}
-              <a href="#theme">
-                <b>"Change Or Continuity, A False Dichotomy"</b>
-              </a>
+              , providing a platform for delegates from around the world to
+              discuss important issues and gain insight into societal problems.
+              The convention, which began as a one-day local event in 1994, has
+              evolved into a three-day international convention. Initiated by
+              Aaron Beng, a former student leader and Singapore's current Chief
+              of Defence Force, the first SLC was graced by Minister for
+              National Development, Mr Lim Hng Kiang. Since then, delegates have
+              had the privilege of conversing with various prominent political
+              leaders, including Deputy Prime Minister, Mr Tharman
+              Shanmugaratnam, and Senior Minister of State, Dr Janil
+              Puthucheary.
             </p>
           </div>
         </section>
@@ -102,19 +91,25 @@ const Home = () => {
             </div>
             <div className="m-auto">
               <h1 className="my-2 text-3xl font-bold text-center md:text-right">
-                Change Or Continuity, A False Dichotomy
+                Change Or Continuity: A False Dichotomy
               </h1>
               <p className="text-base text-center md:text-right md:text-xl">
-                Homer is clumsy, fat and very lazy. He is also an alcoholic, and
-                is not very intelligent. He works as a Safety Inspector at the
-                Springfield Nuclear Power Plant. Homer is one of the most
-                popular and famous fictional characters and is thought of as one
-                of the greatest comedic animated characters of modern times.
+                The constant presence of change and volatility has been a part
+                of human society since the beginning of time. Recent events,
+                such as the Russo-Ukraine war, COVID-19 pandemic, and the
+                overturning of Roe v. Wade, have highlighted our vulnerability
+                and the need to appreciate what we take for granted. However,
+                these events also bring about positive changes and beckon the
+                arrival of change. Student leaders must prepare for a vastly
+                different future and preserve certain fundamental aspects of
+                human consciousness. The convention aims to encourage students
+                to reflect on the future, gain insight, and prepare for the era
+                to come.
               </p>
             </div>
           </div>
         </section>
-        <section className="grid h-screen place-items-center">
+        <section className="grid md:h-screen place-items-center">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
@@ -126,12 +121,32 @@ const Home = () => {
                 Our Guest Of Honor
               </h1>
               <p className="text-base text-center md:text-left md:text-xl">
-                The inaugural SLC was initiated by a student leader named Aaron
-                Beng, who was awarded the President’s Scholarship and Singapore
-                Armed Forces Scholarship after he completed his A-levels, and
-                was graced by Minister Lim Hng Kiang.
+                RADM Beng, who chaired the first Student Leaders Convention, was
+                a former student of Hwa Chong Institution where he completed his
+                high school education. In his time at Hwa Chong Junior College,
+                he represented the college in the New South Wales International
+                English & Science Competition. After finishing his studies at
+                Hwa Chong Institution, RADM Beng was granted the President's
+                Scholarship and the Singapore Armed Forces Overseas Scholarship
+                to pursue Engineering & Economics at Yale University. He
+                successfully completed his degree and was conferred with a
+                Bachelor's of Science.
               </p>
             </div>
+          </div>
+        </section>
+        <section className="grid my-4 place-items-center">
+          <div>
+            <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
+              Convention Outline
+            </h1>
+            <p>
+              An outline of the schedule of activities happening throughout the
+              convention
+            </p>
+            <button className="px-4 py-2 my-2 text-black transition-colors duration-500 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
+              Download
+            </button>
           </div>
         </section>
         <section className="grid h-screen place-items-center">
