@@ -1,27 +1,22 @@
 import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
+import Head from "next/head";
 
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
-import Image from "next/image";
 import HwaChong from "../public/hci-logo.png";
 import Nanyang from "../public/nygh-logo.png";
 import Slc from "../public/slc-logo.png";
-import Link from "next/link";
 import SLC from "../public/slc-small.png";
-import Head from "next/head";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.png";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
 
-  function handleTabClick(tabName) {
+  function handleTabClick(tabName: any) {
     setSelectedTab(tabName);
-  }
-
-  const [selectedTabDates, setSelectedTabDates] = useState("firstday");
-  function handleTabClickDates(tabName) {
-    setSelectedTabDates(tabName);
   }
 
   return (
