@@ -8,7 +8,7 @@ import Guest from "../public/aaron-beng.png";
 
 import SLC from "../public/slc-small.png";
 import OneTeam from "../public/one.svg";
-import BigLogo from "../public/biglogo.png";
+import BigLogo from "../public/test1.png";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
@@ -39,8 +39,8 @@ const Home = () => {
           <Image
             src={BigLogo}
             alt="logo"
-            width={2048}
-            height={2048}
+            width={1024}
+            height={1024}
             className="mr-2"
           />
           <div className="absolute grid w-full bottom-4 place-items-center">
