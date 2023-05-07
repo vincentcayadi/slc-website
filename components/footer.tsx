@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="#" className="flex items-center mb-4 sm:mb-0">
           <span className="self-center text-lg font-semibold text-left text-white text0 md:text-xl">
-            28th Student Leaders Convention
+            © 28<sup>th</sup> Student Leaders Convention
           </span>
         </a>
         <ul className="flex flex-wrap items-center mb-4 font-semibold text-gray-300 sm:mb-0">
