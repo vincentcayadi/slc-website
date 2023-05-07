@@ -8,6 +8,7 @@ import Link from "next/link";
 import Homer from "../public/homer.png";
 import Head from "next/head";
 import OneTeam from "../public/one.svg";
+import BigLogo from "../public/biglogo.svg";
 const Home = () => {
   return (
     <>
@@ -25,10 +26,7 @@ const Home = () => {
       <div className="w-3/4 m-auto text-center">
         <section className="relative grid h-screen place-items-center">
           <div>
-            <h1 className="mb-8 text-6xl font-bold md:text-8xl">28th SLC</h1>
-            <p className="text-xl italic md:text-3xl">
-              Change Or Continuity, A False Dichotomy
-            </p>
+            <BigLogo />
           </div>
           <div className="absolute grid w-full bottom-4 place-items-center">
             <a
