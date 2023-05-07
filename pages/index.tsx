@@ -1,3 +1,5 @@
+import React, { useState } from "react";
+
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
 import Image from "next/image";
@@ -9,7 +11,19 @@ import SLC from "../public/slc-small.png";
 import Head from "next/head";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.png";
+
 const Home = () => {
+  const [selectedTab, setSelectedTab] = useState("adminCommittee");
+
+  function handleTabClick(tabName) {
+    setSelectedTab(tabName);
+  }
+
+  const [selectedTabDates, setSelectedTabDates] = useState("firstday");
+  function handleTabClickDates(tabName) {
+    setSelectedTabDates(tabName);
+  }
+
   return (
     <>
       <Head>
@@ -151,26 +165,68 @@ const Home = () => {
         <section className="grid place-items-center">
           <div className="hidden md:block">
             <div className="grid text-center place-items-center">
-              <h1 className="mb-8 text-4xl font-bold text-center underline ">
-                Organising Committe
+              <h1 className="mb-8 text-4xl font-bold text-center underline">
+                Organising Committee
               </h1>
-              <div className="grid grid-cols-3 gap-8">
-                <div className="md:col-span-2">
-                  <OneTeam />
-                </div>
-                <p className="">From left to right</p>
-                <div className="">From right to Left</div>
-                <div className="md:col-span-2">
-                  <OneTeam />
-                </div>
-                <div className="md:col-span-2">
-                  <OneTeam />
-                </div>
-                <div className="">From left to right</div>
-                <div className="">From light to Left</div>
-                <div className="md:col-span-2">
-                  <OneTeam />
-                </div>
+              <div className="grid grid-cols-4 gap-8">
+                <button
+                  className={`text-lg ${
+                    selectedTab === "adminCommittee" ? "font-bold" : ""
+                  }`}
+                  onClick={() => handleTabClick("adminCommittee")}
+                >
+                  Admin Committee
+                </button>
+                <button
+                  className={`text-lg ${
+                    selectedTab === "conceptsCommittee" ? "font-bold" : ""
+                  }`}
+                  onClick={() => handleTabClick("conceptsCommittee")}
+                >
+                  Concepts Committee
+                </button>
+                <button
+                  className={`text-lg ${
+                    selectedTab === "logisticsCommittee" ? "font-bold" : ""
+                  }`}
+                  onClick={() => handleTabClick("logisticsCommittee")}
+                >
+                  Logistics Committee
+                </button>
+                <button
+                  className={`text-lg ${
+                    selectedTab === "programmesCommittee" ? "font-bold" : ""
+                  }`}
+                  onClick={() => handleTabClick("programmesCommittee")}
+                >
+                  Programmes Committee
+                </button>
+              </div>
+              <div className="mt-8">
+                {selectedTab === "adminCommittee" && (
+                  <div>
+                    <h2 className="text-2xl font-bold">Admin Committee</h2>
+                    <p>Content for the Admin Committee tab goes here</p>
+                  </div>
+                )}
+                {selectedTab === "conceptsCommittee" && (
+                  <div>
+                    <h2 className="text-2xl font-bold">Concepts Committee</h2>
+                    <p>Content for the Concepts Committee tab goes here</p>
+                  </div>
+                )}
+                {selectedTab === "logisticsCommittee" && (
+                  <div>
+                    <h2 className="text-2xl font-bold">Logistics Committee</h2>
+                    <p>Content for the Logistics Committee tab goes here</p>
+                  </div>
+                )}
+                {selectedTab === "programmesCommittee" && (
+                  <div>
+                    <h2 className="text-2xl font-bold">Programmes Committee</h2>
+                    <p>Content for the Programmes Committee tab goes here</p>
+                  </div>
+                )}
               </div>
             </div>
           </div>

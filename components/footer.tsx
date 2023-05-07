@@ -14,7 +14,7 @@ export default function Footer() {
             className="mr-2"
           />
           <span className="self-center text-xl font-semibold text-white whitespace-nowrap">
-            28th Student Leader Convention
+            28th Student Leaders Convention
           </span>
         </a>
         <ul className="flex flex-wrap items-center mb-4 font-semibold text-gray-300 sm:mb-0">
