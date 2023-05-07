@@ -5,7 +5,7 @@ import HwaChong from "../public/hci-logo.png";
 import Nanyang from "../public/nygh-logo.png";
 import Slc from "../public/slc-logo.png";
 import Link from "next/link";
-import Homer from "../public/homer.png";
+import SLC from "../public/slc-small.png";
 import Head from "next/head";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.png";
@@ -85,7 +85,7 @@ const Home = () => {
         <section className="grid h-screen place-items-center" id="theme">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64 md:ml-0">
-              <Image src={Homer} alt="logo" fill />
+              <Image src={SLC} alt="logo" fill />
             </div>
             <div className="m-auto">
               <h1 className="my-2 text-3xl font-bold text-center md:text-right">
