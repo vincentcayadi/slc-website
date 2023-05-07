@@ -54,7 +54,10 @@ const Home = () => {
             </a>
           </div>
         </section>
-        <section className="grid place-items-center md:h-screen " id="about">
+        <section
+          className="grid my-12 md:my-0 md:h-screen place-items-center"
+          id="about"
+        >
           <div>
             <h1 className="mt-12 mb-8 text-4xl font-bold text-center underline md:mt-0">
               About Us
@@ -84,7 +87,10 @@ const Home = () => {
             </p>
           </div>
         </section>
-        <section className="grid h-screen place-items-center" id="theme">
+        <section
+          className="grid my-12 md:my-0 md:h-screen place-items-center"
+          id="theme"
+        >
           <div className="grid gird-cols-1 md:grid-cols-2">
             <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64 md:ml-0">
               <Image src={SLC} alt="logo" fill />
@@ -109,7 +115,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid md:h-screen place-items-center">
+        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
           <div className="grid gird-cols-1 md:grid-cols-2">
             <Image
               src={Guest}
@@ -135,7 +141,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid my-4 place-items-center">
+        <section className="grid my-12 md:my-0 place-items-centerr">
           <div>
             <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
               Convention Outline
@@ -144,12 +150,12 @@ const Home = () => {
               An outline of the schedule of activities happening throughout the
               convention
             </p>
-            <button className="px-4 py-2 my-2 text-black transition-colors duration-500 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
+            <button className="px-4 py-2 my-4 text-black transition-colors duration-500 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
               Download
             </button>
           </div>
         </section>
-        <section className="grid h-screen place-items-center">
+        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
           <div>
             <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
               Convention Dates
@@ -211,7 +217,7 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid place-items-center">
+        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
           <div className="hidden md:block">
             <div className="grid text-center place-items-center">
               <h1 className="mb-8 text-4xl font-bold text-center underline">
