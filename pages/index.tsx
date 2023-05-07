@@ -8,7 +8,7 @@ import Link from "next/link";
 import Homer from "../public/homer.png";
 import Head from "next/head";
 import OneTeam from "../public/one.svg";
-import BigLogo from "../public/biglogo.svg";
+import BigLogo from "../public/biglogo.png";
 const Home = () => {
   return (
     <>
@@ -25,9 +25,13 @@ const Home = () => {
       </Head>
       <div className="w-3/4 m-auto text-center">
         <section className="relative grid h-screen place-items-center">
-          <div>
-            <BigLogo />
-          </div>
+          <Image
+            src={BigLogo}
+            alt="logo"
+            width={2048}
+            height={2048}
+            className="mr-2"
+          />
           <div className="absolute grid w-full bottom-4 place-items-center">
             <a
               href="#about"
