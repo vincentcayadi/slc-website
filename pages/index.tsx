@@ -6,6 +6,7 @@ import Head from "next/head";
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
 
+import SLC_PRIMARY from "../public/logo.png";
 import SLC from "../public/slc-small.png";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/test1.png";
@@ -53,46 +54,46 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="grid my-12 md:my-0 md:h-screen place-items-center"
+          className="grid grid-cols-2 my-12 lg:my-0 lg:h-screen place-items-center"
           id="about"
         >
           <div>
-            <h1 className="mt-12 text-4xl font-bold text-center md:mt-0">
+            <Image src={SLC_PRIMARY} alt="logo" width={256} height={256} />
+          </div>
+          <div>
+            <h1 className="mt-12 text-4xl font-bold text-right lg:mt-0">
               About Us
             </h1>
             <hr className="my-4"></hr>
-            <p className="text-base md:text-xl">
-              The Student Leaders Convention (SLC) is an annual event organised{" "}
+            <p className="text-sm text-right lg:text-lg">
+              The Student Leaders Convention (SLC) is an esteemed annual event
+              organised by{" "}
               <Link href={"https://www.hci.edu.sg/"} className="underline ">
                 Hwa Chong Institution
               </Link>
-              , providing a platform for delegates from around the world to
-              discuss important issues and gain insight into societal problems.
-              The convention, which began as a one-day local event in 1994, has
-              evolved into a three-day international convention. Initiated by
-              Aaron Beng, a former student leader and Singapore's current Chief
-              of Defence Force, the first SLC was graced by Minister for
-              National Development, Mr Lim Hng Kiang. Since then, delegates have
-              had the privilege of conversing with various prominent political
-              leaders, including Deputy Prime Minister, Mr Tharman
-              Shanmugaratnam, and Senior Minister of State, Dr Janil
-              Puthucheary.
+              , aimed at providing a platform for delegates to discuss global
+              issues. It was initiated in 1994 as a local one-day event, but has
+              since grown into a three-day convention. The SLC was founded by
+              Aaron Beng, a former student leader who is now Singapore's Chief
+              of Defence Force. Distinguished political leaders have attended
+              the convention, including Deputy Prime Minister Mr Tharman
+              Shanmugaratnam and Senior Minister of State Dr Janil Puthucheary.
             </p>
           </div>
         </section>
         <section
-          className="grid my-12 md:my-0 md:h-screen place-items-center"
+          className="grid my-12 lg:my-0 lg:h-screen place-items-center"
           id="theme"
         >
-          <div className="grid gird-cols-1 md:grid-cols-2">
-            <div className="relative w-32 h-32 mx-auto md:h-64 md:w-64 md:ml-0">
+          <div className="grid gird-cols-1 lg:grid-cols-2">
+            <div className="relative w-32 h-32 mx-auto lg:h-64 lg:w-64 lg:ml-0">
               <Image src={SLC} alt="logo" fill />
             </div>
             <div className="m-auto">
-              <h1 className="my-2 text-3xl font-bold text-center md:text-right">
+              <h1 className="my-2 text-3xl font-bold text-center lg:text-right">
                 Change Or Continuity: A False Dichotomy
               </h1>
-              <p className="text-base text-center md:text-right md:text-xl">
+              <p className="text-sm text-center lg:text-right lg:text-lg">
                 The constant presence of change and volatility has been a part
                 of human society since the beginning of time. Recent events,
                 such as the Russo-Ukraine war, COVID-19 pandemic, and the
@@ -108,18 +109,18 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
-          <div className="grid gird-cols-1 md:grid-cols-2">
+        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+          <div className="grid gird-cols-1 lg:grid-cols-2">
             <Image
               src={Guest}
-              className="w-64 m-auto mx-auto align-middle rounded-full md:mr-0 md:order-last"
+              className="w-64 m-auto mx-auto align-middle rounded-full lg:mr-0 lg:order-last"
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="my-2 text-3xl font-bold text-center md:text-left">
+              <h1 className="my-2 text-3xl font-bold text-center lg:text-left">
                 Our Guest Of Honor
               </h1>
-              <p className="text-base text-center md:text-left md:text-xl">
+              <p className="text-sm text-center lg:text-left lg:text-lg">
                 RADM Beng, who chaired the first Student Leaders Convention, was
                 a former student of Hwa Chong Institution where he completed his
                 high school education. In his time at Hwa Chong Junior College,
@@ -134,9 +135,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid my-12 md:my-0 place-items-centerr">
+        <section className="grid my-12 lg:my-0 place-items-centerr">
           <div>
-            <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
+            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl">
               Convention Outline
             </h1>
             <p>
@@ -148,15 +149,15 @@ const Home = () => {
             </button>
           </div>
         </section>
-        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
+        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
           <div>
-            <h1 className="mb-2 text-3xl font-bold text-center md:text-4xl">
+            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl">
               Convention Dates
             </h1>
             <hr className="my-2"></hr>
-            <h2 className="font-bold md:text-2xl">
+            <h2 className="font-bold lg:text-2xl">
               28th May - 31st May{" "}
-              <a className="block md:inline">
+              <a className="block lg:inline">
                 @ Hwa Chong Institution, Singapore
               </a>
             </h2>
@@ -213,8 +214,8 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <section className="grid my-12 md:my-0 md:h-screen place-items-center">
-          <div className="hidden md:block">
+        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+          <div className="hidden lg:block">
             <div className="grid text-center place-items-center">
               <h1 className="mb-8 text-4xl font-bold text-center">
                 Organising Committee
@@ -279,9 +280,9 @@ const Home = () => {
                   </div>
                 )}
               </div>
-            </div>  
+            </div>
           </div>
-          <section className="block md:hidden">
+          <section className="block lg:hidden">
             <div className="grid text-center place-items-center">
               <div>
                 <h1 className="mb-8 text-2xl font-bold text-center">
