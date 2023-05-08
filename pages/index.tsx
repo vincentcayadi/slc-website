@@ -63,17 +63,17 @@ const Home = () => {
             </h1>
             <hr className="my-4"></hr>
             <p className="text-sm text-left lg:text-lg">
-              The Student Leaders Convention (SLC) is an esteemed annual event
+              The Student Leaders Convention is an esteemed annual event
               organised by{" "}
               <Link href={"https://www.hci.edu.sg/"} className="underline ">
                 Hwa Chong Institution
               </Link>
               , aimed at providing a platform for delegates to discuss global
               issues. It was initiated in 1994 as a local one-day event, but has
-              since grown into a three-day convention. The SLC was founded by
-              Aaron Beng, a former student leader who is now Singapore's Chief
-              of Defence Force. Distinguished political leaders have attended
-              the convention, including Deputy Prime Minister Mr Tharman
+              since grown into a three-day convention. SLC was founded by Aaron
+              Beng, a former student leader who is now Singapore's Chief of
+              Defence Force. Distinguished political leaders have attended the
+              convention, including Deputy Prime Minister Mr Tharman
               Shanmugaratnam and Senior Minister of State Dr Janil Puthucheary.
             </p>
           </div>
@@ -93,17 +93,15 @@ const Home = () => {
               </h1>
               <hr className="my-4"></hr>
               <p className="text-sm text-center lg:text-right lg:text-lg">
-                The constant presence of change and volatility has been a part
-                of human society since the beginning of time. Recent events,
-                such as the Russo-Ukraine war, COVID-19 pandemic, and the
-                overturning of Roe v. Wade, have highlighted our vulnerability
-                and the need to appreciate what we take for granted. However,
-                these events also bring about positive changes and beckon the
-                arrival of change. Student leaders must prepare for a vastly
-                different future and preserve certain fundamental aspects of
-                human consciousness. The convention aims to encourage students
-                to reflect on the future, gain insight, and prepare for the era
-                to come.
+                Change, have always been a part of human society.
+                Recent events, such as the Russo-Ukraine war and the COVID-19
+                pandemic, have highlighted our vulnerability and the need to
+                appreciate what we take for granted. However, these events also
+                bring about positive changes. Student leaders must prepare for a
+                vastly different future and preserve certain fundamental aspects
+                of human consciousness. The convention aims to encourage
+                students to reflect on the future, gain insight, and prepare for
+                the era to come.
               </p>
             </div>
           </div>
