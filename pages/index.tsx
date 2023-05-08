@@ -54,18 +54,15 @@ const Home = () => {
           </div>
         </section>
         <section
-          className="grid grid-cols-2 my-12 lg:my-0 lg:h-screen place-items-center"
+          className="grid grid-cols-1 my-12 md:grid-cols-2 lg:my-0 lg:h-screen place-items-center"
           id="about"
         >
           <div>
-            <Image src={SLC_PRIMARY} alt="logo" width={256} height={256} />
-          </div>
-          <div>
-            <h1 className="mt-12 text-4xl font-bold text-right lg:mt-0">
+            <h1 className="mt-12 text-3xl font-bold text-left lg:mt-0">
               About Us
             </h1>
             <hr className="my-4"></hr>
-            <p className="text-sm text-right lg:text-lg">
+            <p className="text-sm text-left lg:text-lg">
               The Student Leaders Convention (SLC) is an esteemed annual event
               organised by{" "}
               <Link href={"https://www.hci.edu.sg/"} className="underline ">
@@ -86,13 +83,15 @@ const Home = () => {
           id="theme"
         >
           <div className="grid gird-cols-1 lg:grid-cols-2">
-            <div className="relative w-32 h-32 mx-auto lg:h-64 lg:w-64 lg:ml-0">
-              <Image src={SLC} alt="logo" fill />
+            <div className="grid place-items-center">
+              <Image src={SLC} alt="logo" className="w-64" />
             </div>
-            <div className="m-auto">
-              <h1 className="my-2 text-3xl font-bold text-center lg:text-right">
-                Change Or Continuity: A False Dichotomy
+            <div>
+              <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right">
+                Change Or Continuity:{" "}
+                <span className="block">A False Dichotomy</span>
               </h1>
+              <hr className="my-4"></hr>
               <p className="text-sm text-center lg:text-right lg:text-lg">
                 The constant presence of change and volatility has been a part
                 of human society since the beginning of time. Recent events,
@@ -117,9 +116,11 @@ const Home = () => {
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="my-2 text-3xl font-bold text-center lg:text-left">
+              <h1 className="text-3xl font-bold text-center lg:text-left">
                 Our Guest Of Honor
               </h1>
+              <hr className="my-4"></hr>
+
               <p className="text-sm text-center lg:text-left lg:text-lg">
                 RADM Beng, who chaired the first Student Leaders Convention, was
                 a former student of Hwa Chong Institution where he completed his
