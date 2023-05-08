@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        slcOrange: "#ff3e00",
+        slcBlue: "#007cff",
+      },
       textColor: { skin: { base: "var(--color-text-base)" } },
     },
     fontFamily: { sans: ["Helvetica", "sans-serif"] },

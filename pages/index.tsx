@@ -6,7 +6,6 @@ import Head from "next/head";
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
 
-import SLC_PRIMARY from "../public/logo.png";
 import SLC from "../public/slc-small.png";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/test1.png";
@@ -58,7 +57,7 @@ const Home = () => {
           id="about"
         >
           <div>
-            <h1 className="mt-12 text-3xl font-bold text-left lg:mt-0">
+            <h1 className="mt-12 text-3xl font-bold text-left lg:mt-0 text-slcOrange">
               About Us
             </h1>
             <hr className="my-4"></hr>
@@ -87,21 +86,21 @@ const Home = () => {
               <Image src={SLC} alt="logo" className="w-64" />
             </div>
             <div>
-              <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right">
+              <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcOrange">
                 Change Or Continuity:{" "}
                 <span className="block">A False Dichotomy</span>
               </h1>
               <hr className="my-4"></hr>
               <p className="text-sm text-center lg:text-right lg:text-lg">
-                Change, have always been a part of human society.
-                Recent events, such as the Russo-Ukraine war and the COVID-19
-                pandemic, have highlighted our vulnerability and the need to
-                appreciate what we take for granted. However, these events also
-                bring about positive changes. Student leaders must prepare for a
-                vastly different future and preserve certain fundamental aspects
-                of human consciousness. The convention aims to encourage
-                students to reflect on the future, gain insight, and prepare for
-                the era to come.
+                Change, have always been a part of human society. Recent events,
+                such as the Russo-Ukraine war and the COVID-19 pandemic, have
+                highlighted our vulnerability and the need to appreciate what we
+                take for granted. However, these events also bring about
+                positive changes. Student leaders must prepare for a vastly
+                different future and preserve certain fundamental aspects of
+                human consciousness. The convention aims to encourage students
+                to reflect on the future, gain insight, and prepare for the era
+                to come.
               </p>
             </div>
           </div>
@@ -114,11 +113,10 @@ const Home = () => {
               alt="aaron-beng"
             />
             <div className="m-auto">
-              <h1 className="text-3xl font-bold text-center lg:text-left">
+              <h1 className="text-3xl font-bold text-center lg:text-left text-slcOrange">
                 Our Guest Of Honor
               </h1>
               <hr className="my-4"></hr>
-
               <p className="text-sm text-center lg:text-left lg:text-lg">
                 RADM Beng, who chaired the first Student Leaders Convention, was
                 a former student of Hwa Chong Institution where he completed his
@@ -136,21 +134,21 @@ const Home = () => {
         </section>
         <section className="grid my-12 lg:my-0 place-items-centerr">
           <div>
-            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl">
+            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
               Convention Outline
             </h1>
             <p>
               An outline of the schedule of activities happening throughout the
               convention
             </p>
-            <button className="px-4 py-2 my-4 text-black transition-colors duration-500 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
+            <button className="px-4 py-2 my-4 text-black transition-colors duration-300 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
               Download
             </button>
           </div>
         </section>
         <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
           <div>
-            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl">
+            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
               Convention Dates
             </h1>
             <hr className="my-2"></hr>
@@ -166,24 +164,24 @@ const Home = () => {
             <hr></hr>
             <div className="grid grid-cols-3 gap-8 my-2">
               <button
-                className={`text-lg ${
-                  selectedTabDates === "firstDay" ? "font-bold" : ""
+                className={`text-lg text-slcBlue ${
+                  selectedTabDates === "firstDay" ? "font-bold " : ""
                 }`}
                 onClick={() => handleDateClick("firstDay")}
               >
                 Day 1
               </button>
               <button
-                className={`text-lg ${
-                  selectedTabDates === "secondDay" ? "font-bold" : ""
+                className={`text-lg text-slcBlue ${
+                  selectedTabDates === "secondDay" ? "font-bold " : ""
                 }`}
                 onClick={() => handleDateClick("secondDay")}
               >
                 Day 2
               </button>
               <button
-                className={`text-lg ${
-                  selectedTabDates === "thirdDay" ? "font-bold" : ""
+                className={`text-lg text-slcBlue ${
+                  selectedTabDates === "thirdDay" ? "font-bold " : ""
                 }`}
                 onClick={() => handleDateClick("thirdDay")}
               >
@@ -216,7 +214,7 @@ const Home = () => {
         <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
           <div className="hidden lg:block">
             <div className="grid text-center place-items-center">
-              <h1 className="mb-8 text-4xl font-bold text-center">
+              <h1 className="mb-8 text-4xl font-bold text-center text-slcOrange">
                 Organising Committee
               </h1>
               <div className="grid grid-cols-4 gap-8">

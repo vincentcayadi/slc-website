@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="p-4 mt-4 text-center bg-gray-900 shadow md:px-6 md:py-8">
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="#" className="flex items-center mb-4 sm:mb-0">
-          <span className="self-center text-lg font-semibold text-left text-white text0 md:text-xl">
+          <span className="self-center text-lg font-semibold text-left text-white md:text-xl">
             28<sup>th</sup> Student Leaders Convention
           </span>
         </a>
