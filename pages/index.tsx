@@ -57,7 +57,7 @@ const Home = () => {
           id="about"
         >
           <div>
-            <h1 className="mt-12 text-4xl font-bold text-center underline md:mt-0">
+            <h1 className="mt-12 text-4xl font-bold text-center md:mt-0">
               About Us
             </h1>
             <hr className="my-4"></hr>
@@ -155,7 +155,10 @@ const Home = () => {
             </h1>
             <hr className="my-2"></hr>
             <h2 className="font-bold md:text-2xl">
-              28th May - 31st May @ Hwa Chong Institution, Singapore
+              28th May - 31st May{" "}
+              <a className="block md:inline">
+                @ Hwa Chong Institution, Singapore
+              </a>
             </h2>
             <p className="my-2 text-base text-gray-400">
               Timings are in GMT+0800
@@ -213,7 +216,7 @@ const Home = () => {
         <section className="grid my-12 md:my-0 md:h-screen place-items-center">
           <div className="hidden md:block">
             <div className="grid text-center place-items-center">
-              <h1 className="mb-8 text-4xl font-bold text-center underline">
+              <h1 className="mb-8 text-4xl font-bold text-center">
                 Organising Committee
               </h1>
               <div className="grid grid-cols-4 gap-8">
@@ -276,12 +279,12 @@ const Home = () => {
                   </div>
                 )}
               </div>
-            </div>
+            </div>  
           </div>
           <section className="block md:hidden">
             <div className="grid text-center place-items-center">
               <div>
-                <h1 className="mb-8 text-3xl font-bold text-center underline">
+                <h1 className="mb-8 text-2xl font-bold text-center">
                   Organising Committe
                 </h1>
                 <div className="grid gap-8">
