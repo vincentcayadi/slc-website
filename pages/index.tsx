@@ -50,23 +50,25 @@ const Home = () => {
         style={{
           backgroundImage: `url('/about.webp')`,
         }}
-        className="h-screen bg-center bg-no-repeat bg-cover "
+        className="h-screen bg-center bg-no-repeat bg-cover  "
         id="about"
       >
-        <div className="grid w-3/4 h-screen grid-cols-1 m-auto text-white md:grid-cols-2 place-items-center">
-          <div>
-            <h1 className="text-3xl font-bold text-left text-white lg:mt-0">
-              About Us
-            </h1>
-            <hr className="my-2"></hr>
-            <p className="text-sm text-left lg:text-lg">
-              The Student Leaders Convention is an esteemed annual event
-              organised by Hwa Chong Institution aimed at providing a platform
-              for delegates to discuss global issues. It was initiated in 1994
-              as a local one-day event, but has since grown into a three-day
-              convention. Distinguished political leaders such as Deputy Prime
-              Minister Mr Tharman Shanmugaratnam have attended the convention.
-            </p>
+        <div className="bg-black bg-opacity-30">
+          <div className="grid w-3/4 h-screen grid-cols-1 m-auto text-white md:grid-cols-2 place-items-center">
+            <div>
+              <h1 className="text-3xl font-bold text-left text-white lg:mt-0">
+                About Us
+              </h1>
+              <hr className="my-2"></hr>
+              <p className="text-sm text-left lg:text-lg">
+                The Student Leaders Convention is an esteemed annual event
+                organised by Hwa Chong Institution aimed at providing a platform
+                for delegates to discuss global issues. It was initiated in 1994
+                as a local one-day event, but has since grown into a three-day
+                convention. Distinguished political leaders such as Mr Tharman
+                Shanmugaratnam have attended the convention.
+              </p>
+            </div>
           </div>
         </div>
       </section>
