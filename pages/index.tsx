@@ -300,7 +300,7 @@ const Home = () => {
         <div className="grid text-center place-items-center">
           <div>
             <h1 className="mb-8 text-xl font-bold text-center text-slcOrange">
-              Organising Committe
+              Organising Committee
             </h1>
             <div className="grid gap-8">
               <div className="grid grid-row-2 place-items-center gap-4">
