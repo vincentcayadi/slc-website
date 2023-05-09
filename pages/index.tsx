@@ -245,7 +245,7 @@ const Home = () => {
                     height={400}
                     className="rounded-lg"
                   />
-                  <p className="text-sm">
+                  <p className="text-xs">
                     From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
                     Alastair Chua (OS), Seah Jin Rong and Ethan Lee
                   </p>
@@ -259,9 +259,9 @@ const Home = () => {
                     height={400}
                     className="rounded-lg"
                   />
-                  <p className="text-sm">
+                  <p className="text-xs">
                     From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                    Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                    Alfie Sun (AIC), Elijah Koh (IC), Zhang Xiao Yu (AIC), Kyan
                     Tay, Jasper Wong and Hagen Lee
                   </p>
                 </div>
@@ -299,7 +299,7 @@ const Home = () => {
       <section className="block lg:hidden w-3/4 m-auto">
         <div className="grid text-center place-items-center">
           <div>
-            <h1 className="mb-8 text-3xl font-bold text-center text-slcOrange">
+            <h1 className="mb-8 text-xl font-bold text-center text-slcOrange">
               Organising Committe
             </h1>
             <div className="grid gap-8">
@@ -310,7 +310,7 @@ const Home = () => {
                   height={400}
                   className="rounded-lg"
                 />
-                <p className="text-sm">
+                <p className="text-xs">
                   From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
                   Alastair Chua (OS), Seah Jin Rong and Ethan Lee
                 </p>
@@ -322,9 +322,9 @@ const Home = () => {
                   height={400}
                   className="rounded-lg"
                 />
-                <p className="text-sm">
+                <p className="text-xs">
                   From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                  Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                  Alfie Sun (AIC), Elijah Koh (IC), Zhang Xiao Yu (AIC), Kyan
                   Tay, Jasper Wong and Hagen Lee
                 </p>
               </div>
@@ -344,9 +344,9 @@ const Home = () => {
                   height={400}
                   className="rounded-lg"
                 />
-                <p className="text-sm">
+                <p className="text-xs">
                   From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                  Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                  Alfie Sun (AIC), Elijah Koh (IC), Zhang Xiao Yu (AIC), Kyan
                   Tay, Jasper Wong and Hagen Lee
                 </p>
               </div>
