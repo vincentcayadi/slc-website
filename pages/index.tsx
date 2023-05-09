@@ -85,14 +85,13 @@ const Home = () => {
         className="grid w-3/4 m-auto my-12 lg:my-0 lg:h-screen place-items-center"
         id="theme"
       >
-        <div className="grid gird-cols-1 lg:grid-cols-2">
+        <div className="grid gird-cols-1 lg:grid-cols-3">
           <div className="grid place-items-center">
             <Image src={SLC} alt="logo" className="w-64" />
           </div>
-          <div>
+          <div className="lg:col-span-2">
             <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcBlue">
-              Change Or Continuity:{" "}
-              <span className="block">A False Dichotomy</span>
+              Change Or Continuity: A False Dichotomy
             </h1>
             <hr className="my-4"></hr>
             <p className="text-sm text-center lg:text-right lg:text-lg">
@@ -102,8 +101,7 @@ const Home = () => {
               These events have also created positive changes such as global
               solidarity. As student leaders, we must get ready for a very
               different future while safeguarding essential aspects of human
-              consciousness. The convention's goal is to prompt students to gain
-              insights, and prepare for the future.
+              consciousness.
             </p>
           </div>
         </div>
