@@ -6,9 +6,9 @@ import Head from "next/head";
 import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
 
-import SLC from "../public/slc-small.png";
+import SLC from "../public/slc-small.webp";
 import OneTeam from "../public/one.svg";
-import BigLogo from "../public/biglogo.png";
+import BigLogo from "../public/biglogo.webp";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
