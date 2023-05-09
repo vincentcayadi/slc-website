@@ -13,6 +13,7 @@ import BigLogo from "../public/biglogo.webp";
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
   const [selectedTabDates, setSelectedTabDates] = useState("firstDay");
+
   function handleTabClick(tabName: any) {
     setSelectedTab(tabName);
   }
@@ -198,7 +199,7 @@ const Home = () => {
                 className={`text-lg ${
                   selectedTab === "adminCommittee" ? "font-bold" : ""
                 }`}
-                onClick={() => handleDateClick("adminCommittee")}
+                onClick={() => handleTabClick("adminCommittee")}
               >
                 Admin Committee
               </button>
