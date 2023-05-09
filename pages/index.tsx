@@ -50,7 +50,7 @@ const Home = () => {
         style={{
           backgroundImage: `url('/about.webp')`,
         }}
-        className="h-screen bg-center bg-no-repeat bg-cover  "
+        className="h-screen bg-center bg-no-repeat bg-cover"
         id="about"
       >
         <div className="bg-black bg-opacity-30">
@@ -233,33 +233,40 @@ const Home = () => {
             <div className="my-2">
               {selectedTab === "adminCommittee" && (
                 <div>
-                  <h2 className="text-2xl font-bold">Admin Committee</h2>
-                  <p>Content for the Admin Committee tab goes here</p>
+                  <p className="text-xs">
+                    From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
+                    Alastair Chua (OS), Seah Jin Rong and Ethan Lee
+                  </p>
                 </div>
               )}
               {selectedTab === "conceptsCommittee" && (
                 <div>
-                  <h2 className="text-2xl font-bold">Concepts Committee</h2>
-                  <p>Content for the Concepts Committee tab goes here</p>
+                  <p className="text-xs">
+                    From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
+                    Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                    Tay, Jasper Wong and Hagen Lee
+                  </p>
                 </div>
               )}
               {selectedTab === "logisticsCommittee" && (
                 <div>
-                  <h2 className="text-2xl font-bold">Logistics Committee</h2>
                   <p>Content for the Logistics Committee tab goes here</p>
                 </div>
               )}
               {selectedTab === "programmesCommittee" && (
                 <div>
-                  <h2 className="text-2xl font-bold">Programmes Committee</h2>
-                  <p>Content for the Programmes Committee tab goes here</p>
+                  <p className="text-xs">
+                    From left to right: Zhou Ruiyu, Kaden Isaac Kwan, Randal
+                    Siow, Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen
+                    Zhining, Li Xiyuan
+                  </p>
                 </div>
               )}
             </div>
           </div>
         </div>
       </section>
-      <section className="block lg:hidden">
+      <section className="block lg:hidden w-3/4 m-auto">
         <div className="grid text-center place-items-center">
           <div>
             <h1 className="mb-8 text-3xl font-bold text-center text-slcOrange">
@@ -270,8 +277,19 @@ const Home = () => {
                 <div>
                   <OneTeam />
                 </div>
-                <p>From left to right</p>
+                <p className="text-sm">
+                  From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
+                  Alastair Chua (OS), Seah Jin Rong and Ethan Lee
+                </p>
               </div>
+              <div>
+                <OneTeam />
+              </div>
+              <p className="text-sm">
+                From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
+                Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan Tay,
+                Jasper Wong and Hagen Lee
+              </p>
               <div>
                 <OneTeam />
               </div>
@@ -279,11 +297,11 @@ const Home = () => {
               <div>
                 <OneTeam />
               </div>
-              <p>From left to right</p>
-              <div>
-                <OneTeam />
-              </div>
-              <p>From left to right</p>
+              <p className="text-sm">
+                From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
+                Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan Tay,
+                Jasper Wong and Hagen Lee
+              </p>
             </div>
           </div>
         </div>
