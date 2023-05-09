@@ -8,7 +8,7 @@ import Guest from "../public/aaron-beng.png";
 
 import SLC from "../public/slc-small.png";
 import OneTeam from "../public/one.svg";
-import BigLogo from "../public/test1.png";
+import BigLogo from "../public/biglogo.png";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
@@ -94,12 +94,12 @@ const Home = () => {
               <p className="text-sm text-center lg:text-right lg:text-lg">
                 Society has always undergone change, and recent events like the
                 Russo-Ukraine war and COVID-19 pandemic have shown us how
-                vulnerable we can be and the importance to value what we
-                have. These events have also created positive changes such as
-                global solidarity. As student leaders, we must get ready for a
-                very different future while safeguarding essential aspects of
-                human consciousness. The convention's goal is to prompt students
-                to gain insights, and prepare for the future.
+                vulnerable we can be and the importance to value what we have.
+                These events have also created positive changes such as global
+                solidarity. As student leaders, we must get ready for a very
+                different future while safeguarding essential aspects of human
+                consciousness. The convention's goal is to prompt students to
+                gain insights, and prepare for the future.
               </p>
             </div>
           </div>
