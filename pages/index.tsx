@@ -34,28 +34,31 @@ const Home = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <div className="w-3/4 m-auto text-center">
-        <section className="relative grid h-screen place-items-center">
-          <Image
-            src={BigLogo}
-            alt="logo"
-            width={1024}
-            height={1024}
-            className="mr-2"
-          />
-          <div className="absolute grid w-full bottom-4 place-items-center">
-            <a
-              href="#about"
-              className="mx-auto text-sm text-center duration-200 animate-bounce sm:text-lg"
-            >
-              Scroll down
-            </a>
-          </div>
-        </section>
-        <section
-          className="grid grid-cols-1 my-12 md:grid-cols-2 lg:my-0 lg:h-screen place-items-center"
-          id="about"
-        >
+      <section className="relative grid h-screen place-items-center">
+        <Image
+          src={BigLogo}
+          alt="logo"
+          width={1024}
+          height={1024}
+          className="mr-2"
+        />
+        <div className="absolute grid w-full bottom-4 place-items-center">
+          <a
+            href="#about"
+            className="mx-auto text-sm text-center duration-200 animate-bounce sm:text-lg"
+          >
+            Scroll down
+          </a>
+        </div>
+      </section>
+      <section
+        style={{
+          backgroundImage: `url('/about.webp')`,
+        }}
+        className="h-screen bg-center bg-no-repeat bg-cover "
+        id="about"
+      >
+        <div className="grid w-3/4 grid-cols-1 m-auto my-12 text-white md:grid-cols-2 lg:my-0 lg:h-screen place-items-center">
           <div>
             <h1 className="mt-12 text-3xl font-bold text-left lg:mt-0 text-slcOrange">
               About Us
@@ -76,239 +79,239 @@ const Home = () => {
               Shanmugaratnam and Senior Minister of State Dr Janil Puthucheary.
             </p>
           </div>
-        </section>
-        <section
-          className="grid my-12 lg:my-0 lg:h-screen place-items-center"
-          id="theme"
-        >
-          <div className="grid gird-cols-1 lg:grid-cols-2">
-            <div className="grid place-items-center">
-              <Image src={SLC} alt="logo" className="w-64" />
-            </div>
-            <div>
-              <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcOrange">
-                Change Or Continuity:{" "}
-                <span className="block">A False Dichotomy</span>
-              </h1>
-              <hr className="my-4"></hr>
-              <p className="text-sm text-center lg:text-right lg:text-lg">
-                Society has always undergone change, and recent events like the
-                Russo-Ukraine war and COVID-19 pandemic have shown us how
-                vulnerable we can be and the importance to value what we have.
-                These events have also created positive changes such as global
-                solidarity. As student leaders, we must get ready for a very
-                different future while safeguarding essential aspects of human
-                consciousness. The convention's goal is to prompt students to
-                gain insights, and prepare for the future.
-              </p>
-            </div>
+        </div>
+      </section>
+      <section
+        className="grid my-12 lg:my-0 lg:h-screen place-items-center"
+        id="theme"
+      >
+        <div className="grid gird-cols-1 lg:grid-cols-2">
+          <div className="grid place-items-center">
+            <Image src={SLC} alt="logo" className="w-64" />
           </div>
-        </section>
-        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
-          <div className="grid gird-cols-1 lg:grid-cols-2">
-            <Image
-              src={Guest}
-              className="w-64 m-auto mx-auto align-middle rounded-full lg:mr-0 lg:order-last"
-              alt="aaron-beng"
-            />
-            <div className="m-auto">
-              <h1 className="text-3xl font-bold text-center lg:text-left text-slcOrange">
-                Our Guest Of Honor
-              </h1>
-              <hr className="my-4"></hr>
-              <p className="text-sm text-center lg:text-left lg:text-lg">
-                RADM Beng, who chaired the first Student Leaders Convention, was
-                a former student of Hwa Chong Institution where he completed his
-                high school education. In his time at Hwa Chong Junior College,
-                he represented the college in the New South Wales International
-                English & Science Competition. After finishing his studies at
-                Hwa Chong Institution, RADM Beng was granted the President's
-                Scholarship and the Singapore Armed Forces Overseas Scholarship
-                to pursue Engineering & Economics at Yale University. He
-                successfully completed his degree and was conferred with a
-                Bachelor's of Science.
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="grid my-12 lg:my-0 place-items-centerr">
           <div>
-            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
-              Convention Outline
+            <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcOrange">
+              Change Or Continuity:{" "}
+              <span className="block">A False Dichotomy</span>
             </h1>
-            <p>
-              An outline of the schedule of activities happening throughout the
-              convention
+            <hr className="my-4"></hr>
+            <p className="text-sm text-center lg:text-right lg:text-lg">
+              Society has always undergone change, and recent events like the
+              Russo-Ukraine war and COVID-19 pandemic have shown us how
+              vulnerable we can be and the importance to value what we have.
+              These events have also created positive changes such as global
+              solidarity. As student leaders, we must get ready for a very
+              different future while safeguarding essential aspects of human
+              consciousness. The convention's goal is to prompt students to gain
+              insights, and prepare for the future.
             </p>
-            <button className="px-4 py-2 my-4 text-black transition-colors duration-300 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
-              Download
+          </div>
+        </div>
+      </section>
+      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+        <div className="grid gird-cols-1 lg:grid-cols-2">
+          <Image
+            src={Guest}
+            className="w-64 m-auto mx-auto align-middle rounded-full lg:mr-0 lg:order-last"
+            alt="aaron-beng"
+          />
+          <div className="m-auto">
+            <h1 className="text-3xl font-bold text-center lg:text-left text-slcOrange">
+              Our Guest Of Honor
+            </h1>
+            <hr className="my-4"></hr>
+            <p className="text-sm text-center lg:text-left lg:text-lg">
+              RADM Beng, who chaired the first Student Leaders Convention, was a
+              former student of Hwa Chong Institution where he completed his
+              high school education. In his time at Hwa Chong Junior College, he
+              represented the college in the New South Wales International
+              English & Science Competition. After finishing his studies at Hwa
+              Chong Institution, RADM Beng was granted the President's
+              Scholarship and the Singapore Armed Forces Overseas Scholarship to
+              pursue Engineering & Economics at Yale University. He successfully
+              completed his degree and was conferred with a Bachelor's of
+              Science.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="grid my-12 lg:my-0 place-items-centerr">
+        <div>
+          <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
+            Convention Outline
+          </h1>
+          <p>
+            An outline of the schedule of activities happening throughout the
+            convention
+          </p>
+          <button className="px-4 py-2 my-4 text-black transition-colors duration-300 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
+            Download
+          </button>
+        </div>
+      </section>
+      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+        <div>
+          <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
+            Convention Dates
+          </h1>
+          <hr className="my-2"></hr>
+          <h2 className="font-bold lg:text-2xl">
+            28th May - 31st May{" "}
+            <span className="block lg:inline">
+              @ Hwa Chong Institution, Singapore
+            </span>
+          </h2>
+          <p className="my-2 text-base text-gray-400">
+            Timings are in GMT+0800
+          </p>
+          <hr></hr>
+          <div className="grid grid-cols-3 gap-8 my-2">
+            <button
+              className={`text-lg text-slcBlue ${
+                selectedTabDates === "firstDay" ? "font-bold " : ""
+              }`}
+              onClick={() => handleDateClick("firstDay")}
+            >
+              Day 1
+            </button>
+            <button
+              className={`text-lg text-slcBlue ${
+                selectedTabDates === "secondDay" ? "font-bold " : ""
+              }`}
+              onClick={() => handleDateClick("secondDay")}
+            >
+              Day 2
+            </button>
+            <button
+              className={`text-lg text-slcBlue ${
+                selectedTabDates === "thirdDay" ? "font-bold " : ""
+              }`}
+              onClick={() => handleDateClick("thirdDay")}
+            >
+              Day 3
             </button>
           </div>
-        </section>
-        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
-          <div>
-            <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
-              Convention Dates
-            </h1>
-            <hr className="my-2"></hr>
-            <h2 className="font-bold lg:text-2xl">
-              28th May - 31st May{" "}
-              <span className="block lg:inline">
-                @ Hwa Chong Institution, Singapore
-              </span>
-            </h2>
-            <p className="my-2 text-base text-gray-400">
-              Timings are in GMT+0800
-            </p>
-            <hr></hr>
-            <div className="grid grid-cols-3 gap-8 my-2">
-              <button
-                className={`text-lg text-slcBlue ${
-                  selectedTabDates === "firstDay" ? "font-bold " : ""
-                }`}
-                onClick={() => handleDateClick("firstDay")}
-              >
-                Day 1
-              </button>
-              <button
-                className={`text-lg text-slcBlue ${
-                  selectedTabDates === "secondDay" ? "font-bold " : ""
-                }`}
-                onClick={() => handleDateClick("secondDay")}
-              >
-                Day 2
-              </button>
-              <button
-                className={`text-lg text-slcBlue ${
-                  selectedTabDates === "thirdDay" ? "font-bold " : ""
-                }`}
-                onClick={() => handleDateClick("thirdDay")}
-              >
-                Day 3
-              </button>
-            </div>
-            <hr></hr>
-            <div className="mt-4">
-              {selectedTabDates === "firstDay" && (
-                <div>
-                  <h2 className="text-2xl font-bold">First Day</h2>
-                  <p>Content for the First Day tab goes here</p>
-                </div>
-              )}
-              {selectedTabDates === "secondDay" && (
-                <div>
-                  <h2 className="text-2xl font-bold">Second Day</h2>
-                  <p>Content for the Second Day tab goes here</p>
-                </div>
-              )}
-              {selectedTabDates === "thirdDay" && (
-                <div>
-                  <h2 className="text-2xl font-bold">Third Day</h2>
-                  <p>Content for the Third Day tab goes here</p>
-                </div>
-              )}
-            </div>
-          </div>
-        </section>
-        <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
-          <div className="hidden lg:block">
-            <div className="grid text-center place-items-center">
-              <h1 className="mb-8 text-4xl font-bold text-center text-slcOrange">
-                Organising Committee
-              </h1>
-              <div className="grid grid-cols-4 gap-8">
-                <button
-                  className={`text-lg ${
-                    selectedTab === "adminCommittee" ? "font-bold" : ""
-                  }`}
-                  onClick={() => handleDateClick("adminCommittee")}
-                >
-                  Admin Committee
-                </button>
-                <button
-                  className={`text-lg ${
-                    selectedTab === "conceptsCommittee" ? "font-bold" : ""
-                  }`}
-                  onClick={() => handleTabClick("conceptsCommittee")}
-                >
-                  Concepts Committee
-                </button>
-                <button
-                  className={`text-lg ${
-                    selectedTab === "logisticsCommittee" ? "font-bold" : ""
-                  }`}
-                  onClick={() => handleTabClick("logisticsCommittee")}
-                >
-                  Logistics Committee
-                </button>
-                <button
-                  className={`text-lg ${
-                    selectedTab === "programmesCommittee" ? "font-bold" : ""
-                  }`}
-                  onClick={() => handleTabClick("programmesCommittee")}
-                >
-                  Programmes Committee
-                </button>
-              </div>
-              <div className="mt-8">
-                {selectedTab === "adminCommittee" && (
-                  <div>
-                    <h2 className="text-2xl font-bold">Admin Committee</h2>
-                    <p>Content for the Admin Committee tab goes here</p>
-                  </div>
-                )}
-                {selectedTab === "conceptsCommittee" && (
-                  <div>
-                    <h2 className="text-2xl font-bold">Concepts Committee</h2>
-                    <p>Content for the Concepts Committee tab goes here</p>
-                  </div>
-                )}
-                {selectedTab === "logisticsCommittee" && (
-                  <div>
-                    <h2 className="text-2xl font-bold">Logistics Committee</h2>
-                    <p>Content for the Logistics Committee tab goes here</p>
-                  </div>
-                )}
-                {selectedTab === "programmesCommittee" && (
-                  <div>
-                    <h2 className="text-2xl font-bold">Programmes Committee</h2>
-                    <p>Content for the Programmes Committee tab goes here</p>
-                  </div>
-                )}
-              </div>
-            </div>
-          </div>
-          <section className="block lg:hidden">
-            <div className="grid text-center place-items-center">
+          <hr></hr>
+          <div className="mt-4">
+            {selectedTabDates === "firstDay" && (
               <div>
-                <h1 className="mb-8 text-2xl font-bold text-center">
-                  Organising Committe
-                </h1>
-                <div className="grid gap-8">
-                  <div>
-                    <div>
-                      <OneTeam />
-                    </div>
-                    <p>From left to right</p>
-                  </div>
-                  <div>
-                    <OneTeam />
-                  </div>
-                  <p>From left to right</p>
-                  <div>
-                    <OneTeam />
-                  </div>
-                  <p>From left to right</p>
+                <h2 className="text-2xl font-bold">First Day</h2>
+                <p>Content for the First Day tab goes here</p>
+              </div>
+            )}
+            {selectedTabDates === "secondDay" && (
+              <div>
+                <h2 className="text-2xl font-bold">Second Day</h2>
+                <p>Content for the Second Day tab goes here</p>
+              </div>
+            )}
+            {selectedTabDates === "thirdDay" && (
+              <div>
+                <h2 className="text-2xl font-bold">Third Day</h2>
+                <p>Content for the Third Day tab goes here</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+        <div className="hidden lg:block">
+          <div className="grid text-center place-items-center">
+            <h1 className="mb-8 text-4xl font-bold text-center text-slcOrange">
+              Organising Committee
+            </h1>
+            <div className="grid grid-cols-4 gap-8">
+              <button
+                className={`text-lg ${
+                  selectedTab === "adminCommittee" ? "font-bold" : ""
+                }`}
+                onClick={() => handleDateClick("adminCommittee")}
+              >
+                Admin Committee
+              </button>
+              <button
+                className={`text-lg ${
+                  selectedTab === "conceptsCommittee" ? "font-bold" : ""
+                }`}
+                onClick={() => handleTabClick("conceptsCommittee")}
+              >
+                Concepts Committee
+              </button>
+              <button
+                className={`text-lg ${
+                  selectedTab === "logisticsCommittee" ? "font-bold" : ""
+                }`}
+                onClick={() => handleTabClick("logisticsCommittee")}
+              >
+                Logistics Committee
+              </button>
+              <button
+                className={`text-lg ${
+                  selectedTab === "programmesCommittee" ? "font-bold" : ""
+                }`}
+                onClick={() => handleTabClick("programmesCommittee")}
+              >
+                Programmes Committee
+              </button>
+            </div>
+            <div className="mt-8">
+              {selectedTab === "adminCommittee" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Admin Committee</h2>
+                  <p>Content for the Admin Committee tab goes here</p>
+                </div>
+              )}
+              {selectedTab === "conceptsCommittee" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Concepts Committee</h2>
+                  <p>Content for the Concepts Committee tab goes here</p>
+                </div>
+              )}
+              {selectedTab === "logisticsCommittee" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Logistics Committee</h2>
+                  <p>Content for the Logistics Committee tab goes here</p>
+                </div>
+              )}
+              {selectedTab === "programmesCommittee" && (
+                <div>
+                  <h2 className="text-2xl font-bold">Programmes Committee</h2>
+                  <p>Content for the Programmes Committee tab goes here</p>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+        <section className="block lg:hidden">
+          <div className="grid text-center place-items-center">
+            <div>
+              <h1 className="mb-8 text-2xl font-bold text-center">
+                Organising Committe
+              </h1>
+              <div className="grid gap-8">
+                <div>
                   <div>
                     <OneTeam />
                   </div>
                   <p>From left to right</p>
                 </div>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
+                <div>
+                  <OneTeam />
+                </div>
+                <p>From left to right</p>
               </div>
             </div>
-          </section>
+          </div>
         </section>
-      </div>
+      </section>
       <Footer />
     </>
   );
