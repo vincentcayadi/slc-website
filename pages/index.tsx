@@ -35,13 +35,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <section className="relative grid w-3/4 h-screen m-auto place-items-center">
-        <Image
-          src={BigLogo}
-          alt="logo"
-          width={1024}
-          height={1024}
-          className="mr-2"
-        />
+        <Image src={BigLogo} alt="logo" sizes="80vw" />
         <div className="absolute grid w-full bottom-4 place-items-center">
           <a
             href="#about"
