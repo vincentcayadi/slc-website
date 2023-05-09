@@ -64,9 +64,8 @@ const Home = () => {
               organised by Hwa Chong Institution aimed at providing a platform
               for delegates to discuss global issues. It was initiated in 1994
               as a local one-day event, but has since grown into a three-day
-              convention. Distinguished political leaders have attended the
-              convention, including Deputy Prime Minister Mr Tharman
-              Shanmugaratnam and Senior Minister of State Dr Janil Puthucheary.
+              convention. Distinguished political leaders such as Deputy Prime
+              Minister Mr Tharman Shanmugaratnam have attended the convention.
             </p>
           </div>
         </div>
@@ -75,11 +74,11 @@ const Home = () => {
         className="grid w-3/4 h-screen m-auto place-items-center"
         id="theme"
       >
-        <div className="grid gird-cols-1 lg:grid-cols-3">
+        <div className="grid gird-cols-1 lg:grid-cols-2">
           <div className="grid place-items-center">
             <Image src={SLC} alt="logo" className="w-32 lg:w-64" />
           </div>
-          <div className="my-2 lg:col-span-2 lg:my-0">
+          <div className="my-2 lg:my-0">
             <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
               Change Or Continuity:{" "}
               <span className="block lg:inline ">A False Dichotomy</span>
