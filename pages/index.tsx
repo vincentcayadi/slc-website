@@ -10,6 +10,12 @@ import SLC from "../public/slc-small.webp";
 import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.webp";
 
+import admin from "../public/admin.webp";
+import concepts from "../public/concepts.webp";
+import logs from "../public/logs.webp";
+import progs from "../public/progs.webp";
+import { log } from "console";
+
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
   const [selectedTabDates, setSelectedTabDates] = useState("firstDay");
@@ -232,16 +238,28 @@ const Home = () => {
             <hr></hr>
             <div className="my-2">
               {selectedTab === "adminCommittee" && (
-                <div>
-                  <p className="text-xs">
+                <div className="grid grid-row-2 place-items-center gap-4 ">
+                  <Image
+                    src={admin}
+                    alt="admin"
+                    height={400}
+                    className="rounded-lg"
+                  />
+                  <p className="text-sm">
                     From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
                     Alastair Chua (OS), Seah Jin Rong and Ethan Lee
                   </p>
                 </div>
               )}
               {selectedTab === "conceptsCommittee" && (
-                <div>
-                  <p className="text-xs">
+                <div className="grid grid-row-2 place-items-center gap-4 ">
+                  <Image
+                    src={concepts}
+                    alt="concepts"
+                    height={400}
+                    className="rounded-lg"
+                  />
+                  <p className="text-sm">
                     From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
                     Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
                     Tay, Jasper Wong and Hagen Lee
@@ -249,12 +267,24 @@ const Home = () => {
                 </div>
               )}
               {selectedTab === "logisticsCommittee" && (
-                <div>
+                <div className="grid grid-row-2 place-items-center gap-4 ">
+                  <Image
+                    src={logs}
+                    alt="logs"
+                    height={400}
+                    className="rounded-lg"
+                  />
                   <p>Content for the Logistics Committee tab goes here</p>
                 </div>
               )}
               {selectedTab === "programmesCommittee" && (
-                <div>
+                <div className="grid grid-row-2 place-items-center gap-4 ">
+                  <Image
+                    src={progs}
+                    alt="progs"
+                    height={400}
+                    className="rounded-lg"
+                  />
                   <p className="text-xs">
                     From left to right: Zhou Ruiyu, Kaden Isaac Kwan, Randal
                     Siow, Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen
@@ -273,35 +303,53 @@ const Home = () => {
               Organising Committe
             </h1>
             <div className="grid gap-8">
-              <div>
-                <div>
-                  <OneTeam />
-                </div>
+              <div className="grid grid-row-2 place-items-center gap-4">
+                <Image
+                  src={admin}
+                  alt="admin"
+                  height={400}
+                  className="rounded-lg"
+                />
                 <p className="text-sm">
                   From left to right: Zachary Wong (AOS), Jonathan Leow (AOS),
                   Alastair Chua (OS), Seah Jin Rong and Ethan Lee
                 </p>
               </div>
-              <div>
-                <OneTeam />
+              <div className="grid grid-row-2 place-items-center gap-4 ">
+                <Image
+                  src={concepts}
+                  alt="concepts"
+                  height={400}
+                  className="rounded-lg"
+                />
+                <p className="text-sm">
+                  From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
+                  Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                  Tay, Jasper Wong and Hagen Lee
+                </p>
               </div>
-              <p className="text-sm">
-                From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan Tay,
-                Jasper Wong and Hagen Lee
-              </p>
-              <div>
-                <OneTeam />
+              <div className="grid grid-row-2 place-items-center gap-4 ">
+                <Image
+                  src={logs}
+                  alt="logs"
+                  height={400}
+                  className="rounded-lg"
+                />
+                <p>From left to right</p>
               </div>
-              <p>From left to right</p>
-              <div>
-                <OneTeam />
+              <div className="grid grid-row-2 place-items-center gap-4 ">
+                <Image
+                  src={progs}
+                  alt="progs"
+                  height={400}
+                  className="rounded-lg"
+                />
+                <p className="text-sm">
+                  From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
+                  Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
+                  Tay, Jasper Wong and Hagen Lee
+                </p>
               </div>
-              <p className="text-sm">
-                From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan Tay,
-                Jasper Wong and Hagen Lee
-              </p>
             </div>
           </div>
         </div>
