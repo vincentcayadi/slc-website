@@ -60,7 +60,7 @@ const Home = () => {
       >
         <div className="grid w-3/4 grid-cols-1 m-auto my-12 text-white md:grid-cols-2 lg:my-0 lg:h-screen place-items-center">
           <div>
-            <h1 className="mt-12 text-3xl font-bold text-left lg:mt-0 text-slcOrange">
+            <h1 className="mt-12 text-3xl font-bold text-left text-white lg:mt-0">
               About Us
             </h1>
             <hr className="my-4"></hr>
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="grid my-12 lg:my-0 lg:h-screen place-items-center"
+        className="grid w-3/4 m-auto my-12 lg:my-0 lg:h-screen place-items-center"
         id="theme"
       >
         <div className="grid gird-cols-1 lg:grid-cols-2">
@@ -90,7 +90,7 @@ const Home = () => {
             <Image src={SLC} alt="logo" className="w-64" />
           </div>
           <div>
-            <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcOrange">
+            <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcBlue">
               Change Or Continuity:{" "}
               <span className="block">A False Dichotomy</span>
             </h1>
@@ -108,7 +108,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+      <section className="grid w-3/4 m-auto my-12 lg:my-0 lg:h-screen place-items-center">
         <div className="grid gird-cols-1 lg:grid-cols-2">
           <Image
             src={Guest}
@@ -135,7 +135,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid my-12 lg:my-0 place-items-centerr">
+      <section className="grid w-3/4 m-auto my-12 text-center lg:my-0 place-items-center">
         <div>
           <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
             Convention Outline
@@ -149,7 +149,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+      <section className="grid my-12 text-center lg:my-0 lg:h-screen place-items-center">
         <div>
           <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
             Convention Dates
@@ -214,7 +214,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid my-12 lg:my-0 lg:h-screen place-items-center">
+      <section className="grid my-12 text-center lg:my-0 lg:h-screen place-items-center">
         <div className="hidden lg:block">
           <div className="grid text-center place-items-center">
             <h1 className="mb-8 text-4xl font-bold text-center text-slcOrange">
