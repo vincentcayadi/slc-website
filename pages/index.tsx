@@ -92,15 +92,14 @@ const Home = () => {
               </h1>
               <hr className="my-4"></hr>
               <p className="text-sm text-center lg:text-right lg:text-lg">
-                Change, have always been a part of human society. Recent events,
-                such as the Russo-Ukraine war and the COVID-19 pandemic, have
-                highlighted our vulnerability and the need to appreciate what we
-                take for granted. However, these events also bring about
-                positive changes. Student leaders must prepare for a vastly
-                different future and preserve certain fundamental aspects of
-                human consciousness. The convention aims to encourage students
-                to reflect on the future, gain insight, and prepare for the era
-                to come.
+                Society has always undergone change, and recent events like the
+                Russo-Ukraine war and COVID-19 pandemic have shown us how
+                vulnerable we can be and the importance to value what we
+                have. These events have also created positive changes such as
+                global solidarity. As student leaders, we must get ready for a
+                very different future while safeguarding essential aspects of
+                human consciousness. The convention's goal is to prompt students
+                to gain insights, and prepare for the future.
               </p>
             </div>
           </div>
@@ -154,9 +153,9 @@ const Home = () => {
             <hr className="my-2"></hr>
             <h2 className="font-bold lg:text-2xl">
               28th May - 31st May{" "}
-              <a className="block lg:inline">
+              <span className="block lg:inline">
                 @ Hwa Chong Institution, Singapore
-              </a>
+              </span>
             </h2>
             <p className="my-2 text-base text-gray-400">
               Timings are in GMT+0800
