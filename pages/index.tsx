@@ -84,7 +84,7 @@ const Home = () => {
             <Image src={SLC} alt="logo" className="w-32 lg:w-64" />
           </div>
           <div className="my-4 lg:col-span-2 lg:my-0">
-            <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcBlue">
+            <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
               Change Or Continuity:{" "}
               <span className="block lg:inline ">A False Dichotomy</span>
             </h1>
@@ -141,7 +141,7 @@ const Home = () => {
               @ Hwa Chong Institution, Singapore
             </span>
           </h2>
-          <p className="my-2 text-base text-gray-400">
+          <p className="my-2 text-sm text-gray-400 lg:text-base">
             Timings are in GMT+0800
           </p>
           <hr></hr>
