@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>28th SLC</title>
+        <title>28th Student Leaders Convention</title>
         <meta name="description" content="Home | 28th SLC" />
         <meta property="og:title" content="28th Student Leaders Convention" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="grid w-3/4 m-auto my-12 lg:my-0 lg:h-screen place-items-center"
+        className="grid w-3/4 h-screen m-auto my-12 lg:my-0 place-items-center"
         id="theme"
       >
         <div className="grid gird-cols-1 lg:grid-cols-3">
@@ -107,7 +107,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid w-3/4 m-auto my-12 lg:my-0 lg:h-screen place-items-center">
+      <section className="grid w-3/4 h-screen m-auto my-12 lg:my-0 place-items-center">
         <div className="grid gird-cols-1 lg:grid-cols-2">
           <Image
             src={Guest}
@@ -134,20 +134,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid w-3/4 m-auto my-12 text-center lg:my-0 place-items-center">
-        <div>
-          <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
-            Convention Outline
-          </h1>
-          <p>
-            An outline of the schedule of activities happening throughout the
-            convention
-          </p>
-          <button className="px-4 py-2 my-4 text-black transition-colors duration-300 ease-in-out bg-transparent border-2 border-black rounded-full hover:bg-black hover:text-white">
-            Download
-          </button>
-        </div>
-      </section>
+
       <section className="grid my-12 text-center lg:my-0 lg:h-screen place-items-center">
         <div>
           <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
