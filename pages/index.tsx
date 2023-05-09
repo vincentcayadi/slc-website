@@ -34,7 +34,7 @@ const Home = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <section className="relative grid h-screen place-items-center">
+      <section className="relative grid w-3/4 h-screen m-auto place-items-center">
         <Image
           src={BigLogo}
           alt="logo"
@@ -58,7 +58,7 @@ const Home = () => {
         className="h-screen bg-center bg-no-repeat bg-cover "
         id="about"
       >
-        <div className="grid w-3/4 grid-cols-1 m-auto my-12 text-white md:grid-cols-2 lg:my-0 lg:h-screen place-items-center">
+        <div className="grid w-3/4 h-screen grid-cols-1 m-auto my-12 text-white md:grid-cols-2 lg:my-0 place-items-center">
           <div>
             <h1 className="mt-12 text-3xl font-bold text-left text-white lg:mt-0">
               About Us
@@ -87,11 +87,12 @@ const Home = () => {
       >
         <div className="grid gird-cols-1 lg:grid-cols-3">
           <div className="grid place-items-center">
-            <Image src={SLC} alt="logo" className="w-64" />
+            <Image src={SLC} alt="logo" className="w-32 lg:w-64" />
           </div>
-          <div className="lg:col-span-2">
-            <h1 className="text-lg font-bold text-center md:text-3xl lg:text-right text-slcBlue">
-              Change Or Continuity: A False Dichotomy
+          <div className="my-4 lg:col-span-2 lg:my-0">
+            <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcBlue">
+              Change Or Continuity:{" "}
+              <span className="block lg:inline ">A False Dichotomy</span>
             </h1>
             <hr className="my-4"></hr>
             <p className="text-sm text-center lg:text-right lg:text-lg">
@@ -113,8 +114,8 @@ const Home = () => {
             className="w-64 m-auto mx-auto align-middle rounded-full lg:mr-0 lg:order-last"
             alt="aaron-beng"
           />
-          <div className="m-auto">
-            <h1 className="text-3xl font-bold text-center lg:text-left text-slcOrange">
+          <div className="m-auto my-4">
+            <h1 className="text-xl font-bold text-center lg:text-3xl lg:text-left text-slcOrange">
               Our Guest Of Honor
             </h1>
             <hr className="my-4"></hr>
@@ -154,7 +155,7 @@ const Home = () => {
           </h1>
           <hr className="my-2"></hr>
           <h2 className="font-bold lg:text-2xl">
-            28th May - 31st May{" "}
+            29th May - 31st May{" "}
             <span className="block lg:inline">
               @ Hwa Chong Institution, Singapore
             </span>
