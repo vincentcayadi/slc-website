@@ -274,7 +274,11 @@ const Home = () => {
                     height={400}
                     className="rounded-lg"
                   />
-                  <p>Content for the Logistics Committee tab goes here</p>
+                  <p className="text-xs">
+                    From left to right: Han Yang Yap, Kaden Isaac Kwan, Randal
+                    Siow, Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen
+                    Zhining, Li Xiyuan
+                  </p>
                 </div>
               )}
               {selectedTab === "programmesCommittee" && (
