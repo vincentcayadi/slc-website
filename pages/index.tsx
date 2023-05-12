@@ -89,7 +89,7 @@ const Home = () => {
           <div className="my-2 lg:my-0">
             <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
               Change Or Continuity:{" "}
-              <span className="block ">A False Dichotomy</span>
+              <span className="block">A False Dichotomy</span>
             </h1>
             <hr className="my-2"></hr>
             <p className="text-sm text-center lg:text-right lg:text-lg">
@@ -128,10 +128,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      <section className="grid h-screen text-center place-items-center">
+      <section className="grid text-center lg:h-screen place-items-center">
         <div>
-          <h1 className="mb-2 text-3xl font-bold text-center lg:text-4xl text-slcOrange">
+          <h1 className="text-3xl font-bold text-center lg:text-4xl text-slcOrange">
             Convention Dates
           </h1>
           <hr className="my-2"></hr>
@@ -172,24 +171,173 @@ const Home = () => {
             </button>
           </div>
           <hr></hr>
-          <div className="my-2">
+          <div className="my-2 text-center">
             {selectedTabDates === "firstDay" && (
-              <div>
-                <h2 className="text-2xl font-bold">First Day</h2>
-                <p>Content for the First Day tab goes here</p>
-              </div>
+              <table className="m-auto border-separate border-spacing-3">
+                <thead className="border-b border-gray-500">
+                  <tr className="text-base lg:text-lg">
+                    <th>Timing</th>
+                    <th>YAs 1 - 3</th>
+                    <th>YAs 4 - 6</th>
+                  </tr>
+                </thead>
+                <tr className="text-sm lg:text-base">
+                  <td>0730 - 0800</td>
+                  <td colSpan={2}>Registration</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0800 - 0830</td>
+                  <td colSpan={2}>Welcome Address / Briefing</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0830 - 0930</td>
+                  <td colSpan={2}>Icebreakers / Performance</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0930 - 1200</td>
+                  <td colSpan={2}>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1200 - 1255</td>
+                  <td>Lunch</td>
+                  <td>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1255 - 1350</td>
+                  <td>Concepts Discussion</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1350 - 1400</td>
+                  <td colSpan={2}>Buffer Time</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1400 - 1600</td>
+                  <td colSpan={2}>Opening Ceremony</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1600 - 1800</td>
+                  <td colSpan={2}>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1800 - 1830</td>
+                  <td colSpan={2}>Performance Practice</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1830-1900</td>
+                  <td colSpan={2}>Dismissal (Local Delegates)</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1900 - 2100</td>
+                  <td colSpan={2}>Welcome Dinner</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>2100</td>
+                  <td colSpan={2}>Dismissal (Foreign Delegates)</td>
+                </tr>
+              </table>
             )}
             {selectedTabDates === "secondDay" && (
-              <div>
-                <h2 className="text-2xl font-bold">Second Day</h2>
-                <p>Content for the Second Day tab goes here</p>
-              </div>
+              <table className="m-auto border-separate border-spacing-3">
+                <thead className="border-b border-gray-500">
+                  <tr className="text-base lg:text-lg">
+                    <th>Timing</th>
+                    <th>YAs 1 - 3</th>
+                    <th>YAs 4 - 6</th>
+                  </tr>
+                </thead>
+                <tr className="text-sm lg:text-base">
+                  <td>0730 - 0800</td>
+                  <td colSpan={2}>Registration</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0800 - 1100</td>
+                  <td colSpan={2}>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1100 - 1200</td>
+                  <td>Concepts Discussion</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1200 - 1300</td>
+                  <td>Lunch</td>
+                  <td>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1300 - 1550</td>
+                  <td colSpan={2}>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1550 - 1700</td>
+                  <td colSpan={2}>Mass Games</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1700 - 1900</td>
+                  <td colSpan={2}>Dinner</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1900 - 2100</td>
+                  <td colSpan={2}>Night Fiesta</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>2100</td>
+                  <td colSpan={2}>Dismissal</td>
+                </tr>
+              </table>
             )}
             {selectedTabDates === "thirdDay" && (
-              <div>
-                <h2 className="text-2xl font-bold">Third Day</h2>
-                <p>Content for the Third Day tab goes here</p>
-              </div>
+              <table className="m-auto border-separate border-spacing-3">
+                <thead className="border-b border-gray-500">
+                  <tr className="text-base lg:text-lg">
+                    <th>Timing</th>
+                    <th>YAs 1 - 3</th>
+                    <th>YAs 4 - 6</th>
+                  </tr>
+                </thead>
+                <tr className="text-sm lg:text-base">
+                  <td>0730 - 0800</td>
+                  <td colSpan={2}>Registration</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0800 - 0900</td>
+                  <td colSpan={2}>Concepts Discussion</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>0900 - 1000</td>
+                  <td colSpan={2}>Setting up of Exhibition</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1000 - 1200</td>
+                  <td colSpan={2}>Exhibition</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1200 - 1255</td>
+                  <td>Lunch</td>
+                  <td>Performance Perparation</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1255 - 1350</td>
+                  <td>Performance Perparation</td>
+                  <td>Lunch</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1350 - 1400</td>
+                  <td colSpan={2}>Buffer Time</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1400 - 1645</td>
+                  <td colSpan={2}>Grand Finale</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1645 - 1700</td>
+                  <td colSpan={2}>Debrief</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1700</td>
+                  <td colSpan={2}>Dismissal</td>
+                </tr>
+              </table>
             )}
           </div>
         </div>
