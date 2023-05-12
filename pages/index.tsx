@@ -88,7 +88,7 @@ const Home = () => {
           </div>
           <div className="my-2 lg:my-0">
             <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
-              Change And Continuity:{" "}
+              Change Or Continuity:{" "}
               <span className="block lg:inline ">A False Dichotomy</span>
             </h1>
             <hr className="my-2"></hr>
@@ -238,7 +238,7 @@ const Home = () => {
             <hr></hr>
             <div className="my-2">
               {selectedTab === "adminCommittee" && (
-                <div className="grid grid-row-2 place-items-center gap-4 ">
+                <div className="grid gap-4 grid-row-2 place-items-center ">
                   <Image
                     src={admin}
                     alt="admin"
@@ -252,7 +252,7 @@ const Home = () => {
                 </div>
               )}
               {selectedTab === "conceptsCommittee" && (
-                <div className="grid grid-row-2 place-items-center gap-4 ">
+                <div className="grid gap-4 grid-row-2 place-items-center ">
                   <Image
                     src={concepts}
                     alt="concepts"
@@ -267,7 +267,7 @@ const Home = () => {
                 </div>
               )}
               {selectedTab === "logisticsCommittee" && (
-                <div className="grid grid-row-2 place-items-center gap-4 ">
+                <div className="grid gap-4 grid-row-2 place-items-center ">
                   <Image
                     src={logs}
                     alt="logs"
@@ -275,14 +275,14 @@ const Home = () => {
                     className="rounded-lg"
                   />
                   <p className="text-xs">
-                    From left to right: Han Yang Yap, Kaden Isaac Kwan, Randal
-                    Siow, Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen
-                    Zhining, Li Xiyuan
+                    From left to right: Yap Han Yang, Jayden Tan, Vincent
+                    Cayadi, Jake Ying (AIC), Jovan Lim (IC), Chan Jian Kai,
+                    Reegan Loke and Jerome Ng
                   </p>
                 </div>
               )}
               {selectedTab === "programmesCommittee" && (
-                <div className="grid grid-row-2 place-items-center gap-4 ">
+                <div className="grid gap-4 grid-row-2 place-items-center ">
                   <Image
                     src={progs}
                     alt="progs"
@@ -292,7 +292,7 @@ const Home = () => {
                   <p className="text-xs">
                     From left to right: Zhou Ruiyu, Kaden Isaac Kwan, Randal
                     Siow, Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen
-                    Zhining, Li Xiyuan
+                    Zhining and Li Xiyuan
                   </p>
                 </div>
               )}
@@ -300,14 +300,14 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="block lg:hidden w-3/4 m-auto">
+      <section className="block w-3/4 m-auto lg:hidden">
         <div className="grid text-center place-items-center">
           <div>
             <h1 className="mb-8 text-xl font-bold text-center text-slcOrange">
               Organising Committee
             </h1>
             <div className="grid gap-8">
-              <div className="grid grid-row-2 place-items-center gap-4">
+              <div className="grid gap-4 grid-row-2 place-items-center">
                 <Image
                   src={admin}
                   alt="admin"
@@ -319,7 +319,7 @@ const Home = () => {
                   Alastair Chua (OS), Seah Jin Rong and Ethan Lee
                 </p>
               </div>
-              <div className="grid grid-row-2 place-items-center gap-4 ">
+              <div className="grid gap-4 grid-row-2 place-items-center ">
                 <Image
                   src={concepts}
                   alt="concepts"
@@ -328,20 +328,24 @@ const Home = () => {
                 />
                 <p className="text-xs">
                   From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                  Alfie Sun (AIC), Elijah Koh (IC), Zhang Xiao Yu (AIC), Kyan
+                  Alfie Sun (AIC), Elijah Koh (IC), Zhang XiaoYu (AIC), Kyan
                   Tay, Jasper Wong and Hagen Lee
                 </p>
               </div>
-              <div className="grid grid-row-2 place-items-center gap-4 ">
+              <div className="grid gap-4 grid-row-2 place-items-center ">
                 <Image
                   src={logs}
                   alt="logs"
                   height={400}
                   className="rounded-lg"
                 />
-                <p>From left to right</p>
+                <p className="text-xs">
+                  From left to right: Yap Han Yang, Jayden Tan, Vincent Cayadi,
+                  Jake Ying (AIC), Jovan Lim (IC), Chan Jian Kai, Reegan Loke
+                  and Jerome Ng
+                </p>
               </div>
-              <div className="grid grid-row-2 place-items-center gap-4 ">
+              <div className="grid gap-4 grid-row-2 place-items-center ">
                 <Image
                   src={progs}
                   alt="progs"
@@ -349,9 +353,9 @@ const Home = () => {
                   className="rounded-lg"
                 />
                 <p className="text-xs">
-                  From left to right: Toh Cheung See, Loh Hao Yuan, Ryan Leow,
-                  Alfie Sun (AIC), Elijah Koh (IC), Zhang Xiao Yu (AIC), Kyan
-                  Tay, Jasper Wong and Hagen Lee
+                  From left to right: Zhou Ruiyu, Kaden Isaac Kwan, Randal Siow,
+                  Ashton Tan (IC), Jayden Teo (AIC), Hong Guofeng, Chen Zhining
+                  and Li Xiyuan
                 </p>
               </div>
             </div>
