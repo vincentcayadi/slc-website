@@ -89,7 +89,7 @@ const Home = () => {
           <div className="my-2 lg:my-0">
             <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
               Change Or Continuity:{" "}
-              <span className="block lg:inline ">A False Dichotomy</span>
+              <span className="block ">A False Dichotomy</span>
             </h1>
             <hr className="my-2"></hr>
             <p className="text-sm text-center lg:text-right lg:text-lg">
