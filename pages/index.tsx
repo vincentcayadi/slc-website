@@ -14,7 +14,7 @@ import admin from "../public/admin.webp";
 import concepts from "../public/concepts.webp";
 import logs from "../public/logs.webp";
 import progs from "../public/progs.webp";
-import { log } from "console";
+import filler from "../public/filler.webp";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
@@ -60,7 +60,7 @@ const Home = () => {
         id="about"
       >
         <div className="bg-black bg-opacity-30">
-          <div className="grid w-3/4 h-screen grid-cols-1 m-auto text-white md:grid-cols-2 place-items-center">
+          <div className="grid w-3/4 h-screen grid-cols-1 m-auto text-white lg:grid-cols-2 place-items-center">
             <div>
               <h1 className="text-3xl font-bold text-left text-white lg:mt-0">
                 About Us
@@ -79,26 +79,31 @@ const Home = () => {
         </div>
       </section>
       <section
-        className="grid w-3/4 h-screen m-auto place-items-center"
+        style={{
+          backgroundImage: `url('/filler.webp')`,
+        }}
+        className="bg-center bg-no-repeat bg-cover"
         id="theme"
       >
-        <div className="grid gird-cols-1 lg:grid-cols-2">
-          <div className="grid place-items-center">
-            <Image src={SLC} alt="logo" className="w-32 lg:w-64" />
-          </div>
-          <div className="my-2 lg:my-0">
-            <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
-              Change Or Continuity:{" "}
-              <span className="block">A False Dichotomy</span>
-            </h1>
-            <hr className="my-2"></hr>
-            <p className="text-sm text-center lg:text-right lg:text-lg">
-              Society has always undergone change, and recent events like the
-              Russo-Ukraine war and COVID-19 pandemic have shown us how
-              vulnerable we can be and the importance to value what we have.
-              These events have also created positive changes such as global
-              solidarity.
-            </p>
+        <div className="bg-opacity-75 bg-white/70">
+          <div className="grid w-3/4 h-screen grid-cols-1 m-auto lg:grid-cols-2 place-items-center">
+            <div className="grid place-items-center">
+              <Image src={SLC} alt="logo" className="w-32 lg:w-64" />
+            </div>
+            <div className="my-2 lg:my-0">
+              <h1 className="text-lg font-bold text-center lg:text-3xl lg:text-right text-slcOrange">
+                Change Or Continuity:{" "}
+                <span className="block">A False Dichotomy</span>
+              </h1>
+              <hr className="my-2"></hr>
+              <p className="text-sm text-center lg:text-right lg:text-lg">
+                Society has always undergone change, and recent events like the
+                Russo-Ukraine war and COVID-19 pandemic have shown us how
+                vulnerable we can be and the importance to value what we have.
+                These events have also created positive changes such as global
+                solidarity.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -128,7 +133,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="grid text-center lg:h-screen place-items-center">
+      <section className="grid text-center place-items-center">
         <div>
           <h1 className="text-3xl font-bold text-center lg:text-4xl text-slcOrange">
             Convention Dates
@@ -173,8 +178,8 @@ const Home = () => {
           <hr></hr>
           <div className="my-2 text-center">
             {selectedTabDates === "firstDay" && (
-              <table className="m-auto border-separate border-spacing-3">
-                <thead className="border-b border-gray-500">
+              <table className="m-auto border-separate border-spacing-4">
+                <thead>
                   <tr className="text-base lg:text-lg">
                     <th>Timing</th>
                     <th>YAs 1 - 3</th>
