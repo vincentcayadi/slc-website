@@ -59,7 +59,7 @@ const Home = () => {
         className="h-screen bg-center bg-no-repeat bg-cover"
         id="about"
       >
-        <div className="bg-black bg-opacity-30">
+        <div className="bg-black/40">
           <div className="grid w-3/4 h-screen grid-cols-1 m-auto text-white lg:grid-cols-2 place-items-center">
             <div>
               <h1 className="text-3xl font-bold text-left text-white lg:mt-0">
