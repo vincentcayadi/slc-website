@@ -353,7 +353,7 @@ const Home = () => {
         <div className="hidden lg:text-center lg:block lg:place-items-center">
           <div className="">
             <h1 className="mb-4 text-4xl font-bold text-center text-slcOrange">
-              Organising Committee
+              Organising Team
             </h1>
             <hr></hr>
             <div className="grid grid-cols-4 gap-8 my-2">
@@ -363,7 +363,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleTabClick("adminCommittee")}
               >
-                Admin Committee
+                Admin Team
               </button>
               <button
                 className={`text-lg ${
@@ -371,7 +371,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleTabClick("conceptsCommittee")}
               >
-                Concepts Committee
+                Concepts Team
               </button>
               <button
                 className={`text-lg ${
@@ -379,7 +379,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleTabClick("logisticsCommittee")}
               >
-                Logistics Committee
+                Logistics Team
               </button>
               <button
                 className={`text-lg ${
@@ -387,7 +387,7 @@ const Home = () => {
                 }`}
                 onClick={() => handleTabClick("programmesCommittee")}
               >
-                Programmes Committee
+                Programmes Team
               </button>
             </div>
             <hr></hr>
@@ -458,8 +458,8 @@ const Home = () => {
       <section className="block w-3/4 m-auto lg:hidden">
         <div className="grid text-center place-items-center">
           <div>
-            <h1 className="mb-8 text-xl font-bold text-center text-slcOrange">
-              Organising Committee
+            <h1 className="mb-8 text-2xl font-bold text-center text-slcOrange">
+              Organising Team
             </h1>
             <div className="grid gap-8">
               <div className="grid gap-4 grid-row-2 place-items-center">
