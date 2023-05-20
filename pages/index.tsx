@@ -198,25 +198,21 @@ const Home = () => {
                 </tr>
                 <tr className="text-sm lg:text-base">
                   <td>0830 - 0930</td>
-                  <td colSpan={2}>Icebreakers / Performance</td>
+                  <td colSpan={2}>Icebreakers / Performance Practice</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
                   <td>0930 - 1200</td>
                   <td colSpan={2}>Concepts Discussion</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1200 - 1255</td>
+                  <td>1200 - 1300</td>
                   <td>Lunch</td>
                   <td>Concepts Discussion</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1255 - 1350</td>
+                  <td>1300 - 1400</td>
                   <td>Concepts Discussion</td>
                   <td>Lunch</td>
-                </tr>
-                <tr className="text-sm lg:text-base">
-                  <td>1350 - 1400</td>
-                  <td colSpan={2}>Buffer Time</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
                   <td>1400 - 1600</td>
@@ -231,7 +227,7 @@ const Home = () => {
                   <td colSpan={2}>Performance Practice</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1830-1900</td>
+                  <td>1830 - 1900</td>
                   <td colSpan={2}>Dismissal (Local Delegates)</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
@@ -272,11 +268,15 @@ const Home = () => {
                   <td>Concepts Discussion</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1300 - 1550</td>
+                  <td>1300 - 1400 </td>
+                  <td colSpan={2}>Intra-YA Presentation</td>
+                </tr>
+                <tr className="text-sm lg:text-base">
+                  <td>1400 - 1500</td>
                   <td colSpan={2}>Concepts Discussion</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1550 - 1700</td>
+                  <td>1500 - 1700</td>
                   <td colSpan={2}>Mass Games</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
@@ -319,18 +319,14 @@ const Home = () => {
                   <td colSpan={2}>Exhibition</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1200 - 1255</td>
+                  <td>1200 - 1300</td>
                   <td>Lunch</td>
                   <td>Performance Perparation</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
-                  <td>1255 - 1350</td>
+                  <td>1300 - 1400</td>
                   <td>Performance Perparation</td>
                   <td>Lunch</td>
-                </tr>
-                <tr className="text-sm lg:text-base">
-                  <td>1350 - 1400</td>
-                  <td colSpan={2}>Buffer Time</td>
                 </tr>
                 <tr className="text-sm lg:text-base">
                   <td>1400 - 1645</td>
