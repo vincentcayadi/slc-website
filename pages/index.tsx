@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
@@ -7,14 +6,12 @@ import Footer from "../components/footer";
 import Guest from "../public/aaron-beng.png";
 
 import SLC from "../public/slc-small.webp";
-import OneTeam from "../public/one.svg";
 import BigLogo from "../public/biglogo.webp";
 
 import admin from "../public/admin.webp";
 import concepts from "../public/concepts.webp";
 import logs from "../public/logs.webp";
 import progs from "../public/progs.webp";
-import filler from "../public/filler.webp";
 
 const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
