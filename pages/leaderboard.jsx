@@ -7,11 +7,13 @@ function Page({ yf }) {
         YF Leaderboard
       </h1>
       <ul>
-        {yf.sort().map((e) => (
-          <li key={e.id} className="text-xl">
-            YF {e.id} : {e.points}
-          </li>
-        ))}
+        {yf
+          .sort((a, b) => b.points - a.points)
+          .map((e) => (
+            <li key={e.id} className="text-xl">
+              YF {e.id} : {e.points}
+            </li>
+          ))}
       </ul>
     </div>
   );
@@ -19,7 +21,6 @@ function Page({ yf }) {
 
 export async function getServerSideProps() {
   let { data } = await supabase.from("yfpoints").select();
-
   return {
     props: {
       yf: data,
