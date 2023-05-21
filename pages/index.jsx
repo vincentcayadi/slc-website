@@ -17,11 +17,11 @@ const Home = () => {
   const [selectedTab, setSelectedTab] = useState("adminCommittee");
   const [selectedTabDates, setSelectedTabDates] = useState("firstDay");
 
-  function handleTabClick(tabName: any) {
+  function handleTabClick(tabName) {
     setSelectedTab(tabName);
   }
 
-  function handleDateClick(tabDate: any) {
+  function handleDateClick(tabDate) {
     setSelectedTabDates(tabDate);
   }
 
