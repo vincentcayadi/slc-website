@@ -124,10 +124,10 @@ const Home = () => {
               high school education. In his time at Hwa Chong Junior College, he
               represented the college in the New South Wales International
               English & Science Competition. After finishing his studies at Hwa
-              Chong Institution, RADM Beng was granted the President's
+              Chong Institution, RADM Beng was granted the President&apos;s
               Scholarship and the Singapore Armed Forces Overseas Scholarship to
               pursue Engineering & Economics at Yale University. He was later
-              conferred with a Bachelor's of Science.
+              conferred with a Bachelor&apos;s of Science.
             </p>
           </div>
         </div>
