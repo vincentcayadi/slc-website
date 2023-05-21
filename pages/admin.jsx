@@ -42,7 +42,7 @@ const Login = () => {
     return (
       <section className="w-3/4 m-auto">
         <header className="my-4">
-          <h1 className="text-xl font-bold text-center lg:text-3xl lg:text-left">
+          <h1 className="text-xl font-bold text-left lg:text-3xl">
             Admin Panel
           </h1>
           <p className="text-xs italic lg:text-sm">
@@ -52,9 +52,9 @@ const Login = () => {
         <div className="my-4">
           <label
             htmlFor="YF"
-            className="block text-lg font-bold text-center lg:text-2xl lg:text-left"
+            className="block text-lg font-bold text-left lg:text-2xl"
           >
-            Choose YF:
+            Choose YF
           </label>
           <select
             name="yf"
@@ -84,7 +84,7 @@ const Login = () => {
         <div className="my-4">
           <label
             htmlFor="points"
-            className="block text-lg font-bold text-center lg:text-2xl lg:text-left"
+            className="block text-lg font-bold text-left lg:text-2xl"
           >
             Input Points
           </label>
