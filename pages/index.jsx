@@ -66,7 +66,7 @@ const Home = () => {
               <p className="text-sm text-left lg:text-lg">
                 The Student Leaders Convention is an esteemed annual event
                 organised by Hwa Chong Institution aimed at providing a platform
-                for delegates to discuss global issues. It was initiated in 1994
+                for delegates to discuss global issues. It was initiated in 1995
                 as a local one-day event, but has since grown into a three-day
                 convention. Distinguished political leaders such as Mr Tharman
                 Shanmugaratnam have attended the convention.
