@@ -238,7 +238,7 @@ const Home = () => {
               </table>
             )}
             {selectedTabDates === "secondDay" && (
-              <table className="m-auto border-separate border-spacing-3">
+              <table className="m-auto border-separate border-spacing-4">
                 <thead className="border-b border-gray-500">
                   <tr className="text-base lg:text-lg">
                     <th>Timing</th>
@@ -291,7 +291,7 @@ const Home = () => {
               </table>
             )}
             {selectedTabDates === "thirdDay" && (
-              <table className="m-auto border-separate border-spacing-3">
+              <table className="m-auto border-separate border-spacing-4">
                 <thead className="border-b border-gray-500">
                   <tr className="text-base lg:text-lg">
                     <th>Timing</th>
