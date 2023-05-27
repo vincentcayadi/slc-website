@@ -26,9 +26,19 @@ const Login = () => {
     const yf = document.getElementById("yfs").value;
     const points = document.getElementById("points").value;
     // console.log(yf, points);
-    // supabase.from("yfpoints").insert([{ id: yf, points: points }]);
-    // update supabase data
-    supabase.from("yfpoints").update({ points: points }).eq("id", yf);
+
+    // Insert data into database with the table name of yfpoints
+    supabase
+      .from("yfpoints")
+      .update({ points: points })
+      .eq("id", yf)
+      .then(() => {
+        console.log("Update successful!");
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+
     // Reset form fields and submission status after 3 seconds
     setTimeout(() => {
       // reset form fields
