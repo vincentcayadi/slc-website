@@ -94,12 +94,20 @@ const Home = () => {
                   <span className="block">A False Dichotomy</span>
                 </h1>
                 <hr className="my-2"></hr>
-                <p className="text-sm text-center lg:text-right lg:text-lg">
-                  Society has always undergone change, and recent events like
-                  the Russo-Ukraine war and COVID-19 pandemic have shown us how
-                  vulnerable we can be and the importance to value what we have.
-                  These events have also created positive changes such as global
-                  solidarity.
+                <p className="text-xs text-center lg:text-right lg:text-base">
+                  From the beginning of time, change and volatility have been
+                  constants of human society. With events occuring at an
+                  unprecedented rate recently, change is inevitable. With this
+                  in mind, student leaders have to understand that the world
+                  that they grew up in will be totally alien to the one which
+                  they will be eventually leading in. More importantly, they
+                  have to recognise that there still remain certain fundamental
+                  aspects of the human condition which must be preserved.
+                  Through this convention, we hope to set students&apos; minds
+                  to ponder about the future, thinking about how they can
+                  facilitate change that does not come at the expense of
+                  continuity, thus gaining both insight and preparation for
+                  their endeavours to come.
                 </p>
               </div>
             </div>
