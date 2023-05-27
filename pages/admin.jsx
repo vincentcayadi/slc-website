@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Auth } from "@supabase/auth-ui-react";
 import { ThemeSupa } from "@supabase/auth-ui-shared";
 import { supabase } from "../lib/supabaseClient";
-import Footer from "..//components/Footer";
 
 const Login = () => {
   const [session, setSession] = useState(null);
